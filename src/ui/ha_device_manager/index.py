@@ -23,7 +23,7 @@ try:
     from PyQt5.QtWidgets import (
         QApplication, QMainWindow, QMessageBox, QPushButton, QTableWidgetItem,
         QTabBar, QStackedWidget, QVBoxLayout, QHBoxLayout, QComboBox,
-        QLineEdit, QTableWidget, QHeaderView, QWidget, QFrame
+        QLineEdit, QTableWidget, QHeaderView, QWidget, QFrame, QSlider, QLabel
     )
 except ImportError:
     print("Error: PyQt5 library is not installed")
@@ -37,8 +37,9 @@ except ImportError:
     print("Please run: pip install requests")
     sys.exit(1)
 
-# Hypothetical Sweep import
-from sweep_framework.core import SweepApplication
+# Enable logging
+logging.basicConfig(level=logging.DEBUG, filename="app.log", filemode="w",
+                    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 
 # Device type and icon mapping
 DOMAIN_ICONS = {
@@ -126,6 +127,14 @@ class HomeAssistantDeviceManager(QMainWindow):
 
     def __init__(self):
         super().__init__()
+        # Enable transparency
+        self.setAttribute(Qt.WA_TranslucentBackground, True)
+        # Comment out FramelessWindowHint to ensure compatibility
+        # self.setWindowFlags(Qt.FramelessWindowHint | Qt.Window)
+        self.logger = logging.getLogger("HADeviceManager")
+        self.logger.info("Initializing HomeAssistantDeviceManager with transparency")
+
+        # Load configuration
         self.config = ConfigManager.get_instance()
         self.ha_url = self.config.get_config("HOME_ASSISTANT.URL", "")
         self.ha_token = self.config.get_config("HOME_ASSISTANT.TOKEN", "")
@@ -136,14 +145,18 @@ class HomeAssistantDeviceManager(QMainWindow):
                 "Home Assistant configuration not found. Please ensure config/config.json contains valid\nHOME_ASSISTANT.URL and HOME_ASSISTANT.TOKEN",
             )
             sys.exit(1)
+
         self.added_devices = self.config.get_config("HOME_ASSISTANT.DEVICES", [])
         self.current_devices = []
         self.domain_mapping = {}
         self.threads = []
         self.load_thread = None
-        self.logger = logging.getLogger("HADeviceManager")
+
+        # Setup UI and transparency
         self.setup_ui()
         self.apply_stylesheet()
+        self.setWindowOpacity(0.85)  # Default transparency
+        self.logger.info("Set initial window opacity to 0.85")
         self.init_ui()
         self.connect_signals()
         self.load_devices("all")
@@ -156,6 +169,24 @@ class HomeAssistantDeviceManager(QMainWindow):
         self.main_layout = QVBoxLayout(self.central_widget)
         self.main_layout.setContentsMargins(12, 12, 12, 12)
         self.main_layout.setSpacing(6)
+
+        # Transparency Slider Frame
+        self.transparency_frame = QFrame()
+        self.transparency_frame.setObjectName("transparency_frame")
+        self.transparency_layout = QHBoxLayout(self.transparency_frame)
+        self.transparency_label = QLabel("Transparency:")
+        self.transparency_label.setToolTip("Adjust window transparency")
+        self.transparency_layout.addWidget(self.transparency_label)
+        self.transparency_slider = QSlider(Qt.Horizontal)
+        self.transparency_slider.setMinimum(10)  # 0.1 opacity
+        self.transparency_slider.setMaximum(100)  # 1.0 opacity
+        self.transparency_slider.setValue(85)  # Initial value (0.85)
+        self.transparency_slider.setFixedWidth(200)
+        self.transparency_slider.setToolTip("Slide to adjust transparency (10% to 100%)")
+        self.transparency_layout.addWidget(self.transparency_slider)
+        self.transparency_layout.addStretch()
+        self.main_layout.addWidget(self.transparency_frame)
+        self.logger.info("Transparency slider initialized")
 
         # Navigation TabBar
         self.nav_segment = QTabBar()
@@ -232,21 +263,27 @@ class HomeAssistantDeviceManager(QMainWindow):
         self.stackedWidget.addWidget(self.added_page)
 
     def apply_stylesheet(self):
-        """Apply modern stylesheet for a sleek UI."""
+        """Apply modern stylesheet for a sleek, semi-transparent UI."""
         stylesheet = """
             QMainWindow {
-                background-color: #f5f7fa;
+                background-color: rgba(245, 247, 250, 80); /* Semi-transparent background */
+            }
+            QFrame#transparency_frame {
+                background-color: rgba(200, 200, 200, 100); /* Opaque background for slider visibility */
+                border-radius: 8px;
+                padding: 8px;
+                margin-bottom: 8px;
             }
             QFrame#available_card, QFrame#added_card {
-                background-color: #ffffff;
+                background-color: rgba(255, 255, 255, 90); /* Slightly opaque for readability */
                 border-radius: 12px;
-                border: 1px solid #e0e4e8;
+                border: 1px solid rgba(224, 228, 232, 70);
                 padding: 10px;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 10);
             }
             QTabBar::tab {
-                background: #e8ecef;
-                border: 1px solid #d1d5db;
+                background: rgba(232, 236, 239, 85);
+                border: 1px solid rgba(209, 213, 219, 70);
                 border-bottom: none;
                 border-top-left-radius: 8px;
                 border-top-right-radius: 8px;
@@ -256,8 +293,8 @@ class HomeAssistantDeviceManager(QMainWindow):
                 font-weight: 500;
             }
             QTabBar::tab:selected {
-                background: #ffffff;
-                border-color: #d1d5db;
+                background: rgba(255, 255, 255, 95);
+                border-color: rgba(209, 213, 219, 70);
                 margin-bottom: -1px;
                 color: #1f2937;
                 font-weight: 600;
@@ -267,37 +304,35 @@ class HomeAssistantDeviceManager(QMainWindow):
             }
             QComboBox, QLineEdit, QPushButton {
                 padding: 8px 12px;
-                border: 1px solid #d1d5db;
+                border: 1px solid rgba(209, 213, 219, 80);
                 border-radius: 6px;
                 min-height: 24px;
                 font-size: 11pt;
                 font-family: 'Segoe UI', Arial, sans-serif;
-            }
-            QLineEdit, QComboBox {
-                background-color: #ffffff;
+                background-color: rgba(255, 255, 255, 95);
                 color: #1f2937;
             }
             QComboBox:hover, QLineEdit:hover {
                 border-color: #3b82f6;
             }
             QPushButton {
-                background-color: #3b82f6;
+                background-color: rgba(59, 130, 246, 90);
                 color: #ffffff;
                 font-weight: 600;
                 min-width: 80px;
                 transition: background-color 0.2s ease;
             }
             QPushButton:hover {
-                background-color: #2563eb;
+                background-color: rgba(37, 99, 235, 80);
             }
             QPushButton:pressed {
-                background-color: #1d4ed8;
+                background-color: rgba(29, 78, 216, 70);
             }
             QPushButton#delete_button {
-                background-color: #ef4444;
+                background-color: rgba(239, 68, 68, 90);
             }
             QPushButton#delete_button:hover {
-                background-color: #dc2626;
+                background-color: rgba(220, 38, 38, 80);
             }
             QComboBox::drop-down {
                 border: none;
@@ -309,31 +344,32 @@ class HomeAssistantDeviceManager(QMainWindow):
                 height: 14px;
             }
             QTableWidget {
-                border: 1px solid #e0e4e8;
+                border: 1px solid rgba(224, 228, 232, 70);
                 border-radius: 6px;
-                gridline-color: #e5e7eb;
-                selection-background-color: #bfdbfe;
+                gridline-color: rgba(229, 231, 235, 70);
+                selection-background-color: rgba(191, 219, 254, 80);
                 selection-color: #1f2937;
-                alternate-background-color: #f9fafb;
+                alternate-background-color: rgba(249, 250, 251, 80);
                 font-size: 11pt;
+                background-color: rgba(255, 255, 255, 90);
             }
             QHeaderView::section {
-                background-color: #f3f4f6;
+                background-color: rgba(243, 244, 246, 85);
                 padding: 6px;
-                border: 1px solid #e0e4e8;
+                border: 1px solid rgba(224, 228, 232, 70);
                 border-bottom: none;
                 font-weight: 600;
                 font-size: 11pt;
                 color: #1f2937;
             }
             QScrollBar:vertical {
-                border: 1px solid #d1d5db;
-                background: #f5f7fa;
+                border: 1px solid rgba(209, 213, 219, 70);
+                background: rgba(245, 247, 250, 80);
                 width: 12px;
                 margin: 0;
             }
             QScrollBar::handle:vertical {
-                background: #9ca3af;
+                background: rgba(156, 163, 175, 90);
                 min-height: 20px;
                 border-radius: 6px;
             }
@@ -345,13 +381,13 @@ class HomeAssistantDeviceManager(QMainWindow):
                 background: none;
             }
             QScrollBar:horizontal {
-                border: 1px solid #d1d5db;
-                background: #f5f7fa;
+                border: 1px solid rgba(209, 213, 219, 70);
+                background: rgba(245, 247, 250, 80);
                 height: 12px;
                 margin: 0;
             }
             QScrollBar::handle:horizontal {
-                background: #9ca3af;
+                background: rgba(156, 163, 175, 90);
                 min-width: 20px;
                 border-radius: 6px;
             }
@@ -362,9 +398,30 @@ class HomeAssistantDeviceManager(QMainWindow):
             QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
                 background: none;
             }
+            QSlider::groove:horizontal {
+                background: rgba(229, 231, 235, 70);
+                height: 8px;
+                border-radius: 4px;
+            }
+            QSlider::handle:horizontal {
+                background: rgba(59, 130, 246, 90);
+                border: 1px solid rgba(209, 213, 219, 70);
+                width: 20px;
+                height: 20px;
+                border-radius: 10px;
+                margin: -6px 0;
+            }
+            QSlider::handle:horizontal:hover {
+                background: rgba(37, 99, 235, 80);
+            }
+            QLabel {
+                color: #1f2937;
+                font-size: 11pt;
+                font-family: 'Segoe UI', Arial, sans-serif;
+            }
         """
         self.setStyleSheet(stylesheet)
-        self.logger.info("Applied modern stylesheet")
+        self.logger.info("Applied semi-transparent stylesheet")
 
     def init_ui(self):
         """Initialize UI components."""
@@ -455,6 +512,13 @@ class HomeAssistantDeviceManager(QMainWindow):
         self.add_button.clicked.connect(self.add_selected_device)
         self.added_device_table.cellChanged.connect(self.on_prompt_edited)
         self.device_table.cellChanged.connect(self.on_available_device_prompt_edited)
+        self.transparency_slider.valueChanged.connect(self.adjust_transparency)
+
+    def adjust_transparency(self, value):
+        """Adjust window opacity based on slider value."""
+        opacity = value / 100.0  # Convert 10-100 to 0.1-1.0
+        self.setWindowOpacity(opacity)
+        self.logger.info(f"Set window opacity to {opacity:.2f}")
 
     def on_page_changed_by_index(self, index: int):
         """Handle QTabBar tab switch."""
@@ -755,7 +819,7 @@ class HomeAssistantDeviceManager(QMainWindow):
 
 def main():
     """Main function."""
-    app = SweepApplication(sys.argv)
+    app = QApplication(sys.argv)
     window = HomeAssistantDeviceManager()
     window.setMinimumSize(800, 480)
     window.resize(800, 480)
