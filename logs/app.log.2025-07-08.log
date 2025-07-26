@@ -1,0 +1,653 @@
+2025-07-08 20:38:09,042[root] - INFO - 日志系统已初始化，日志文件: /home/tahmaz/py-xiaozhi/logs/app.log - MainThread
+2025-07-08 20:38:10,791[src.utils.config_manager] - INFO - MQTT服务器信息已更新 - MainThread
+2025-07-08 20:38:10,795[src.utils.config_manager] - INFO - MQTT信息已成功更新 - MainThread
+2025-07-08 20:38:10,796[src.utils.config_manager] - INFO - 检测到WebSocket配置信息 - MainThread
+2025-07-08 20:38:10,798[src.utils.config_manager] - INFO - WebSocket URL已更新: wss://api.tenclass.net/xiaozhi/v1/ - MainThread
+2025-07-08 20:38:10,799[src.utils.config_manager] - INFO - WebSocket Token已更新 - MainThread
+2025-07-08 20:38:11,800[src.utils.device_activator] - INFO - 设备身份信息: 序列号: SN-F0088FE6-204ef6865a4f, 激活状态: 未激活 - MainThread
+2025-07-08 20:38:11,801[src.utils.config_manager] - INFO - OTA请求使用激活版本: 2 (配置值: v2) - MainThread
+2025-07-08 20:38:11,802[__main__] - INFO - Application started, press Ctrl+C to exit - MainThread
+2025-07-08 20:38:11,803[src.application] - INFO - Starting application with parameters: {'mode': 'gui', 'protocol': 'websocket'} - MainThread
+2025-07-08 20:38:11,804[src.application] - INFO - Main loop started - Thread-1 (_main_loop)
+2025-07-08 20:38:11,906[src.application] - INFO - Initializing application components... - Thread-2 (_run_event_loop)
+2025-07-08 20:38:12,246[src.audio_codecs.audio_codec] - INFO - Audio device and codec initialized successfully - Thread-2 (_run_event_loop)
+2025-07-08 20:38:12,246[src.application] - INFO - Audio codec initialized successfully - Thread-2 (_run_event_loop)
+2025-07-08 20:38:12,247[src.application] - INFO - System volume control is not enabled, using simulated volume control - Thread-2 (_run_event_loop)
+2025-07-08 20:38:12,247[src.application] - INFO - Wake word functionality is disabled in configuration, skipping initialization - Thread-2 (_run_event_loop)
+2025-07-08 20:38:12,247[src.application] - INFO - Application components initialization completed - Thread-2 (_run_event_loop)
+2025-07-08 20:38:12,694[src.iot.things.music_player] - INFO - 音乐播放器初始化完成 - MainThread
+2025-07-08 20:38:12,726[src.application] - INFO - Added countdown timer device for timed command execution - MainThread
+2025-07-08 20:38:12,726[src.application] - INFO - IoT devices initialization completed - MainThread
+2025-07-08 20:38:12,727[GuiDisplay] - INFO - Volume controller initialized successfully - MainThread
+2025-07-08 20:38:12,733[GuiDisplay] - INFO - Read system volume: 79% - MainThread
+2025-07-08 20:38:44,773[root] - INFO - 日志系统已初始化，日志文件: /home/tahmaz/py-xiaozhi/logs/app.log - MainThread
+2025-07-08 20:38:45,912[src.utils.config_manager] - INFO - MQTT服务器信息已更新 - MainThread
+2025-07-08 20:38:45,913[src.utils.config_manager] - INFO - MQTT信息已成功更新 - MainThread
+2025-07-08 20:38:45,914[src.utils.config_manager] - INFO - 检测到WebSocket配置信息 - MainThread
+2025-07-08 20:38:45,916[src.utils.config_manager] - INFO - WebSocket URL已更新: wss://api.tenclass.net/xiaozhi/v1/ - MainThread
+2025-07-08 20:38:45,917[src.utils.config_manager] - INFO - WebSocket Token已更新 - MainThread
+2025-07-08 20:38:46,918[src.utils.device_activator] - INFO - 设备身份信息: 序列号: SN-F0088FE6-204ef6865a4f, 激活状态: 未激活 - MainThread
+2025-07-08 20:38:46,918[src.utils.config_manager] - INFO - OTA请求使用激活版本: 2 (配置值: v2) - MainThread
+2025-07-08 20:38:46,919[__main__] - INFO - Application started, press Ctrl+C to exit - MainThread
+2025-07-08 20:38:46,920[src.application] - INFO - Starting application with parameters: {'mode': 'gui', 'protocol': 'websocket'} - MainThread
+2025-07-08 20:38:46,921[src.application] - INFO - Main loop started - Thread-1 (_main_loop)
+2025-07-08 20:38:47,023[src.application] - INFO - Initializing application components... - Thread-2 (_run_event_loop)
+2025-07-08 20:38:47,317[src.audio_codecs.audio_codec] - INFO - Audio device and codec initialized successfully - Thread-2 (_run_event_loop)
+2025-07-08 20:38:47,317[src.application] - INFO - Audio codec initialized successfully - Thread-2 (_run_event_loop)
+2025-07-08 20:38:47,317[src.application] - INFO - System volume control is not enabled, using simulated volume control - Thread-2 (_run_event_loop)
+2025-07-08 20:38:47,318[src.application] - INFO - Wake word functionality is disabled in configuration, skipping initialization - Thread-2 (_run_event_loop)
+2025-07-08 20:38:47,319[src.application] - INFO - Application components initialization completed - Thread-2 (_run_event_loop)
+2025-07-08 20:38:47,532[src.iot.things.music_player] - INFO - 音乐播放器初始化完成 - MainThread
+2025-07-08 20:38:47,557[src.application] - INFO - Added countdown timer device for timed command execution - MainThread
+2025-07-08 20:38:47,557[src.application] - INFO - IoT devices initialization completed - MainThread
+2025-07-08 20:38:47,557[GuiDisplay] - INFO - Volume controller initialized successfully - MainThread
+2025-07-08 20:38:47,563[GuiDisplay] - INFO - Read system volume: 79% - MainThread
+2025-07-08 20:38:47,664[Display] - INFO - Added shortcut hint label - MainThread
+2025-07-08 20:38:47,665[Display] - INFO - Using second page of stackedWidget as iot_card: <PyQt5.QtWidgets.QWidget object at 0x75346636f400> - MainThread
+2025-07-08 20:38:47,682[Display] - INFO - System tray icon initialized - MainThread
+2025-07-08 20:38:47,682[Display] - INFO - Keyboard listener initialized successfully - MainThread
+2025-07-08 20:38:47,685[Display] - INFO - Starting GUI main loop - MainThread
+2025-07-08 20:38:47,763[__main__] - INFO - Starting Qt event loop - MainThread
+2025-07-08 20:38:47,764[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:38:47,764[Display] - INFO - Loading GIF file: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:38:57,698[src.application] - INFO - Audio channel opened - Thread-2 (_run_event_loop)
+2025-07-08 20:38:57,700[src.application] - INFO - IoT device states updated (full) - Thread-2 (_run_event_loop)
+2025-07-08 20:38:57,700[src.protocols.websocket_protocol] - INFO - 成功处理服务器 hello 消息 - Thread-2 (_run_event_loop)
+2025-07-08 20:38:57,702[src.protocols.websocket_protocol] - INFO - 已连接到WebSocket服务器 - Thread-2 (_run_event_loop)
+2025-07-08 20:38:57,751[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:38:57,780[src.application] - INFO - Input event trigger thread started - Thread-1 (_main_loop)
+2025-07-08 20:38:57,780[src.application] - INFO - Output event trigger thread started - Thread-1 (_main_loop)
+2025-07-08 20:38:57,780[src.application] - INFO - Audio streams started - Thread-1 (_main_loop)
+2025-07-08 20:38:57,781[src.application] - INFO - IoT device states updated (incremental) - Thread-1 (_main_loop)
+2025-07-08 20:38:58,469[src.application] - INFO - >> Yeah. - Thread-2 (_run_event_loop)
+2025-07-08 20:38:58,624[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:38:58,768[src.application] - INFO - << Hello there! - Thread-2 (_run_event_loop)
+2025-07-08 20:38:58,818[Display] - INFO - Loading GIF file: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:38:59,987[src.application] - INFO - << How can I assist you tonight? - Thread-2 (_run_event_loop)
+2025-07-08 20:39:02,132[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:39:02,653[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:39:07,349[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:39:10,318[src.application] - INFO - >> What's your name. - Thread-2 (_run_event_loop)
+2025-07-08 20:39:10,452[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:39:10,612[src.application] - INFO - << My name is Qwen. Nice to meet you! - Thread-2 (_run_event_loop)
+2025-07-08 20:39:13,239[src.application] - INFO - << How can I help you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:39:15,278[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:39:15,799[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:39:18,145[src.application] - INFO - Aborting speech output, reason: wake_word_detected - MainThread
+2025-07-08 20:39:20,141[src.application] - INFO - Conversation mode switched to: Auto - MainThread
+2025-07-08 20:39:27,752[src.application] - INFO - >> You cant teach me English. - Thread-2 (_run_event_loop)
+2025-07-08 20:39:27,889[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:39:28,087[src.application] - INFO - << Sure, I can definitely help you with English. - Thread-2 (_run_event_loop)
+2025-07-08 20:39:31,331[src.application] - INFO - << What specific areas would you like to focus on? - Thread-2 (_run_event_loop)
+2025-07-08 20:39:34,348[src.application] - INFO - << Vocabulary, grammar, conversation practice, or something else? - Thread-2 (_run_event_loop)
+2025-07-08 20:39:38,476[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:39:39,101[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:39:48,104[src.application] - INFO - >> Myod. - Thread-2 (_run_event_loop)
+2025-07-08 20:39:48,257[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:39:48,472[src.application] - INFO - << I'm not sure what you meant by "Myod." Could you please clarify or rephrase? - Thread-2 (_run_event_loop)
+2025-07-08 20:39:53,861[src.application] - INFO - << I'm here to help! - Thread-2 (_run_event_loop)
+2025-07-08 20:39:55,595[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:39:56,117[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:39:59,530[src.application] - INFO - >> That cabinet. - Thread-2 (_run_event_loop)
+2025-07-08 20:39:59,661[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:39:59,924[src.application] - INFO - << I see, but I'm not able to observe your surroundings directly. - Thread-2 (_run_event_loop)
+2025-07-08 20:40:03,920[src.application] - INFO - << If you have any questions about the cabinet or need help with English related to it, feel free to ask! - Thread-2 (_run_event_loop)
+2025-07-08 20:40:09,489[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:40:10,010[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:40:16,451[src.application] - INFO - >> Teach me English, please. - Thread-2 (_run_event_loop)
+2025-07-08 20:40:16,471[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:40:16,623[src.application] - INFO - << Of course! Let's start with some basic English phrases. - Thread-2 (_run_event_loop)
+2025-07-08 20:40:21,013[src.application] - INFO - << How about we practice greetings? - Thread-2 (_run_event_loop)
+2025-07-08 20:40:22,952[src.application] - INFO - << For example, "Hello, how are you?" - Thread-2 (_run_event_loop)
+2025-07-08 20:40:26,010[src.application] - INFO - << You can respond with "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:40:29,133[src.application] - INFO - << And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:40:30,149[src.application] - INFO - << " Would you like to try it? - Thread-2 (_run_event_loop)
+2025-07-08 20:40:31,979[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:40:32,501[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:40:46,300[src.application] - INFO - >> Yes. - Thread-2 (_run_event_loop)
+2025-07-08 20:40:46,370[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:40:46,523[src.application] - INFO - << Great! Let's start with "Hello, how are you?" - Thread-2 (_run_event_loop)
+2025-07-08 20:40:49,927[src.application] - INFO - << Try repeating it. - Thread-2 (_run_event_loop)
+2025-07-08 20:40:51,571[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:40:52,092[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:40:55,800[src.application] - INFO - >> Hello, how are you. - Thread-2 (_run_event_loop)
+2025-07-08 20:40:55,935[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:40:56,335[src.application] - INFO - << Very good! Now, you can respond with "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:00,383[src.application] - INFO - << And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:41:01,415[src.application] - INFO - << " Try saying it. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:02,803[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:41:06,535[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:41:08,043[src.application] - INFO - >> I'm on computer. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:08,217[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:41:08,315[src.application] - INFO - << Haha, got it! - Thread-2 (_run_event_loop)
+2025-07-08 20:41:09,876[src.application] - INFO - << Let's try the correct response: "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:14,262[src.application] - INFO - << And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:41:15,381[src.application] - INFO - << " Give it a shot! - Thread-2 (_run_event_loop)
+2025-07-08 20:41:16,629[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:41:17,283[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:41:22,737[src.application] - INFO - >> If I take no. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:22,903[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:41:23,046[src.application] - INFO - << Let's break it down a bit more. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:24,863[src.application] - INFO - << You can say, "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:27,155[src.application] - INFO - << And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:41:28,180[src.application] - INFO - << " This is a common way to respond when someone asks how you are. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:32,004[src.application] - INFO - << Try it again: "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:35,037[src.application] - INFO - << And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:41:36,062[src.application] - INFO - << " - Thread-2 (_run_event_loop)
+2025-07-08 20:41:36,105[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:41:36,671[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:41:41,104[src.application] - INFO - >> I'm fine. Thank you.. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:41,223[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:41:41,450[src.application] - INFO - << Good job! Now, let's add the part where you ask about the other person: "And you?" - Thread-2 (_run_event_loop)
+2025-07-08 20:41:47,366[src.application] - INFO - << Try saying the whole response: "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:51,840[src.application] - INFO - << And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:41:52,824[src.application] - INFO - << " - Thread-2 (_run_event_loop)
+2025-07-08 20:41:53,139[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:41:53,794[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:41:58,210[src.application] - INFO - >> I'm fine. Thank you. I. - Thread-2 (_run_event_loop)
+2025-07-08 20:41:58,386[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:41:58,430[src.application] - INFO - << You're doing great! - Thread-2 (_run_event_loop)
+2025-07-08 20:41:59,831[src.application] - INFO - << Just a little more to complete it. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:02,174[src.application] - INFO - << Try saying: "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:04,953[src.application] - INFO - << And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:42:06,022[src.application] - INFO - << " Keep it up! - Thread-2 (_run_event_loop)
+2025-07-08 20:42:07,289[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:42:07,811[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:42:11,269[src.application] - INFO - >> Okay. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:11,391[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:42:11,691[src.application] - INFO - << Okay! Let's try it one more time to make sure you feel comfortable with it. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:15,680[src.application] - INFO - << Say: "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:17,834[src.application] - INFO - << And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:42:18,915[src.application] - INFO - << " - Thread-2 (_run_event_loop)
+2025-07-08 20:42:18,958[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:42:19,479[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:42:23,629[src.application] - INFO - >> I'm fine. Thank you.. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:23,732[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:42:23,842[src.application] - INFO - << Almost there! - Thread-2 (_run_event_loop)
+2025-07-08 20:42:25,286[src.application] - INFO - << Just add "And you?" - Thread-2 (_run_event_loop)
+2025-07-08 20:42:26,956[src.application] - INFO - << at the end. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:28,201[src.application] - INFO - << Try saying the full response: "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:32,354[src.application] - INFO - << And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:42:33,300[src.application] - INFO - << " - Thread-2 (_run_event_loop)
+2025-07-08 20:42:33,361[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:42:34,013[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:42:38,281[src.application] - INFO - >> . - Thread-2 (_run_event_loop)
+2025-07-08 20:42:38,434[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:42:38,514[src.application] - INFO - << Let's try again. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:40,257[src.application] - INFO - << Say: "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:42,813[src.application] - INFO - << And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:42:43,942[src.application] - INFO - << " Take your time! - Thread-2 (_run_event_loop)
+2025-07-08 20:42:45,648[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:42:46,170[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:42:49,232[src.application] - INFO - >> Like was do. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:49,377[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:42:49,470[src.application] - INFO - << No problem! - Thread-2 (_run_event_loop)
+2025-07-08 20:42:51,005[src.application] - INFO - << Let's break it down again. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:52,698[src.application] - INFO - << First, say "I'm fine, thank you." Then, add "And you? - Thread-2 (_run_event_loop)
+2025-07-08 20:42:53,526[src.application] - INFO - Aborting speech output, reason: wake_word_detected - MainThread
+2025-07-08 20:42:53,834[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:42:56,561[src.application] - INFO - >> This good sort. - Thread-2 (_run_event_loop)
+2025-07-08 20:42:56,567[src.audio_codecs.audio_codec] - INFO - Cleared audio queue, discarded 1 audio frames - Thread-1 (_main_loop)
+2025-07-08 20:42:56,684[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:42:56,797[src.application] - INFO - << That's alright! - Thread-2 (_run_event_loop)
+2025-07-08 20:42:58,339[src.application] - INFO - << Let's keep practicing. - Thread-2 (_run_event_loop)
+2025-07-08 20:43:00,005[src.application] - INFO - << Try saying: "I'm fine, thank you. - Thread-2 (_run_event_loop)
+2025-07-08 20:43:01,297[src.application] - INFO - Aborting speech output, reason: wake_word_detected - MainThread
+2025-07-08 20:43:01,346[src.audio_codecs.audio_codec] - INFO - Cleared audio queue, discarded 1 audio frames - MainThread
+2025-07-08 20:43:01,420[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:43:02,881[src.application] - INFO - >> That's all right. Let's keep practicing,. - Thread-2 (_run_event_loop)
+2025-07-08 20:43:03,007[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:43:03,148[src.application] - INFO - << Exactly! Let's keep going. - Thread-2 (_run_event_loop)
+2025-07-08 20:43:03,202[src.application] - INFO - Aborting speech output, reason: wake_word_detected - MainThread
+2025-07-08 20:43:03,210[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:43:05,508[src.application] - ERROR - 发送音频数据失败: sent 1000 (OK); then received 1000 (OK) - Thread-2 (_run_event_loop)
+2025-07-08 20:43:05,508[src.application] - INFO - Connection disconnection detected - Thread-2 (_run_event_loop)
+2025-07-08 20:43:05,509[src.application] - INFO - Audio channel closed - Thread-2 (_run_event_loop)
+2025-07-08 20:43:09,849[src.application] - INFO - Audio channel opened - Thread-2 (_run_event_loop)
+2025-07-08 20:43:09,851[src.application] - INFO - IoT device states updated (full) - Thread-2 (_run_event_loop)
+2025-07-08 20:43:09,851[src.protocols.websocket_protocol] - INFO - 成功处理服务器 hello 消息 - Thread-2 (_run_event_loop)
+2025-07-08 20:43:09,854[src.protocols.websocket_protocol] - INFO - 已连接到WebSocket服务器 - Thread-2 (_run_event_loop)
+2025-07-08 20:43:09,857[src.application] - INFO - Audio streams started - Thread-1 (_main_loop)
+2025-07-08 20:43:09,857[src.application] - INFO - IoT device states updated (incremental) - Thread-1 (_main_loop)
+2025-07-08 20:43:18,109[src.application] - INFO - >> Hello. - Thread-2 (_run_event_loop)
+2025-07-08 20:43:18,377[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:43:18,649[src.application] - INFO - << Hello! How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:43:21,164[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:43:21,685[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:43:45,531[src.application] - INFO - >> 你 seeま. - Thread-2 (_run_event_loop)
+2025-07-08 20:43:45,662[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:43:45,855[Display] - INFO - Loading GIF file: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:43:45,909[src.application] - INFO - << I'm not sure what you meant by "seeま." Could you please clarify or rephrase? - Thread-2 (_run_event_loop)
+2025-07-08 20:43:51,463[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:43:51,984[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:43:57,946[src.application] - INFO - >> Go go. - Thread-2 (_run_event_loop)
+2025-07-08 20:43:58,098[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:43:58,246[src.application] - INFO - << Got it! - Thread-2 (_run_event_loop)
+2025-07-08 20:43:59,145[src.application] - INFO - << Is there anything specific you'd like to do or talk about? - Thread-2 (_run_event_loop)
+2025-07-08 20:44:02,391[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:44:02,924[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:44:26,059[src.application] - INFO - >> Hello, can you help me. - Thread-2 (_run_event_loop)
+2025-07-08 20:44:26,371[src.application] - INFO - << Of course! How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:44:26,376[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:44:28,761[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:44:29,351[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:44:39,874[src.application] - INFO - >> Hello. - Thread-2 (_run_event_loop)
+2025-07-08 20:44:40,056[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:44:40,314[src.application] - INFO - << Hello! How can I help you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:44:42,938[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:44:43,459[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:44:53,131[src.application] - INFO - >> What's your name. - Thread-2 (_run_event_loop)
+2025-07-08 20:44:53,284[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:44:53,431[src.application] - INFO - << You can call me Assistant. - Thread-2 (_run_event_loop)
+2025-07-08 20:44:55,292[src.application] - INFO - << How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:44:58,409[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:44:59,109[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:45:02,593[src.application] - INFO - >> How I asked? - Thread-2 (_run_event_loop)
+2025-07-08 20:45:02,742[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:45:02,886[src.application] - INFO - << It seems there might have been a mix-up. - Thread-2 (_run_event_loop)
+2025-07-08 20:45:05,134[src.application] - INFO - << You asked, "What's your name." My name is Assistant. - Thread-2 (_run_event_loop)
+2025-07-08 20:45:09,328[src.application] - INFO - << How else can I help you? - Thread-2 (_run_event_loop)
+2025-07-08 20:45:11,325[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:45:11,860[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:45:17,482[src.application] - INFO - >> hello, can you eat咩？ - Thread-2 (_run_event_loop)
+2025-07-08 20:45:17,607[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:45:17,843[src.application] - INFO - << Hello! - Thread-2 (_run_event_loop)
+2025-07-08 20:45:18,971[src.application] - INFO - << As an AI, I don't eat, but I'm here to help you with any questions or tasks you have. - Thread-2 (_run_event_loop)
+2025-07-08 20:45:23,513[src.application] - INFO - << How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:45:25,651[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:45:29,612[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:45:32,984[src.application] - INFO - >> Hello. - Thread-2 (_run_event_loop)
+2025-07-08 20:45:32,987[src.audio_codecs.audio_codec] - INFO - Cleared audio queue, discarded 3 audio frames - Thread-1 (_main_loop)
+2025-07-08 20:45:33,093[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:45:33,231[src.application] - INFO - << Hello! How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:45:35,795[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:45:36,329[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:45:39,347[src.application] - INFO - >> Whats your name. - Thread-2 (_run_event_loop)
+2025-07-08 20:45:39,488[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:45:39,539[src.application] - INFO - << My name is Assistant. - Thread-2 (_run_event_loop)
+2025-07-08 20:45:41,341[src.application] - INFO - << How can I help you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:45:43,437[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:45:43,958[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:45:59,739[src.application] - INFO - >> You can't speak Turkish. - Thread-2 (_run_event_loop)
+2025-07-08 20:45:59,875[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:46:00,122[src.application] - INFO - << I can try to help with Turkish if you give me some phrases or questions. - Thread-2 (_run_event_loop)
+2025-07-08 20:46:04,288[src.application] - INFO - << How can I assist you with Turkish? - Thread-2 (_run_event_loop)
+2025-07-08 20:46:06,568[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:46:07,149[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:46:15,480[src.application] - INFO - >> How can ask you Turkish. - Thread-2 (_run_event_loop)
+2025-07-08 20:46:15,568[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:46:15,765[src.application] - INFO - << Sure, you can ask me questions in Turkish. - Thread-2 (_run_event_loop)
+2025-07-08 20:46:18,658[src.application] - INFO - << For example, you could ask "Adın ne?" - Thread-2 (_run_event_loop)
+2025-07-08 20:46:21,287[src.application] - INFO - << which means "What's your name? - Thread-2 (_run_event_loop)
+2025-07-08 20:46:24,273[src.application] - INFO - << " How about we start with that? - Thread-2 (_run_event_loop)
+2025-07-08 20:46:26,198[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:46:26,720[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:46:29,474[src.application] - INFO - >> 没见你好的美你们。 - Thread-2 (_run_event_loop)
+2025-07-08 20:46:29,654[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:46:29,833[src.application] - INFO - << I'm not sure what you meant by that. - Thread-2 (_run_event_loop)
+2025-07-08 20:46:31,944[src.application] - INFO - << Could you please clarify or rephrase your question? - Thread-2 (_run_event_loop)
+2025-07-08 20:46:34,925[src.application] - INFO - << I'm here to help! - Thread-2 (_run_event_loop)
+2025-07-08 20:46:36,516[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:46:40,379[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:46:51,267[src.application] - INFO - >> You can see tomato, tomato, to. - Thread-2 (_run_event_loop)
+2025-07-08 20:46:51,341[src.audio_codecs.audio_codec] - INFO - Cleared audio queue, discarded 12 audio frames - Thread-1 (_main_loop)
+2025-07-08 20:46:51,454[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:46:51,632[src.application] - INFO - << I see! It sounds like you might be practicing pronunciation or just having fun with words. - Thread-2 (_run_event_loop)
+2025-07-08 20:46:57,681[src.application] - INFO - << Is there anything specific you'd like to know about tomatoes or any other topic? - Thread-2 (_run_event_loop)
+2025-07-08 20:47:01,805[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:47:05,731[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:47:08,444[src.application] - INFO - >> Yeah, in, please. - Thread-2 (_run_event_loop)
+2025-07-08 20:47:08,551[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:47:08,748[src.application] - INFO - << Okay, I'm not quite sure what you're asking for. - Thread-2 (_run_event_loop)
+2025-07-08 20:47:11,702[src.application] - INFO - << Could you provide more details or ask a specific question? - Thread-2 (_run_event_loop)
+2025-07-08 20:47:15,031[src.application] - INFO - << I'd love to help if I can! - Thread-2 (_run_event_loop)
+2025-07-08 20:47:17,175[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:47:17,771[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:47:23,349[src.application] - INFO - >> You can see some. - Thread-2 (_run_event_loop)
+2025-07-08 20:47:23,490[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:47:23,585[src.application] - INFO - << I see! - Thread-2 (_run_event_loop)
+2025-07-08 20:47:24,791[src.application] - INFO - << If you have something specific you'd like me to see or look into, please let me know. - Thread-2 (_run_event_loop)
+2025-07-08 20:47:29,311[src.application] - INFO - << I'm here to help with any questions or tasks you have. - Thread-2 (_run_event_loop)
+2025-07-08 20:47:32,513[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:47:33,102[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:47:37,360[src.application] - INFO - >> Do you know my name. - Thread-2 (_run_event_loop)
+2025-07-08 20:47:37,507[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:47:37,804[src.application] - INFO - << I don't have access to your personal information, so I don't know your name. - Thread-2 (_run_event_loop)
+2025-07-08 20:47:41,506[src.application] - INFO - << If you'd like to share it, I'd be happy to greet you by name! - Thread-2 (_run_event_loop)
+2025-07-08 20:47:44,539[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:47:45,191[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:47:48,218[src.application] - INFO - >> My name is Onold. - Thread-2 (_run_event_loop)
+2025-07-08 20:47:48,410[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:47:48,662[src.application] - INFO - << Nice to meet you, Onold! - Thread-2 (_run_event_loop)
+2025-07-08 20:47:51,033[src.application] - INFO - << How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:47:52,923[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:47:53,575[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:47:56,563[src.application] - INFO - >> What's my name? - Thread-2 (_run_event_loop)
+2025-07-08 20:47:56,683[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:47:56,915[src.application] - INFO - << Your name is Onold. Is there anything else you'd like to know or talk about? - Thread-2 (_run_event_loop)
+2025-07-08 20:48:01,333[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:48:01,854[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:48:06,032[src.application] - INFO - >> No, my name is O. - Thread-2 (_run_event_loop)
+2025-07-08 20:48:06,153[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:48:06,498[src.application] - INFO - << Got it, your name is O. How can I assist you today, O? - Thread-2 (_run_event_loop)
+2025-07-08 20:48:10,806[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:48:11,401[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:48:13,879[src.application] - INFO - >> A. - Thread-2 (_run_event_loop)
+2025-07-08 20:48:14,087[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:48:14,282[src.application] - INFO - << Okay, A. Is there something specific you'd like to talk about or ask? - Thread-2 (_run_event_loop)
+2025-07-08 20:48:18,601[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:48:19,122[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:48:23,264[src.application] - INFO - >> No, my name is. - Thread-2 (_run_event_loop)
+2025-07-08 20:48:23,390[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:48:23,537[src.application] - INFO - << It seems like your message got cut off. - Thread-2 (_run_event_loop)
+2025-07-08 20:48:25,854[src.application] - INFO - << Could you please tell me your name again? - Thread-2 (_run_event_loop)
+2025-07-08 20:48:28,005[src.application] - INFO - << I'd love to know how to address you correctly. - Thread-2 (_run_event_loop)
+2025-07-08 20:48:31,250[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:48:31,771[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:48:34,997[src.application] - INFO - >> My name is S. - Thread-2 (_run_event_loop)
+2025-07-08 20:48:35,183[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:48:35,276[src.application] - INFO - << Nice to meet you, S! - Thread-2 (_run_event_loop)
+2025-07-08 20:48:38,453[src.application] - INFO - << How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:48:40,194[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:48:43,934[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:48:45,923[src.application] - INFO - >> 关C里关手。 - Thread-2 (_run_event_loop)
+2025-07-08 20:48:46,091[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:48:46,396[src.application] - INFO - << I'm not sure what you meant by "关C里关手." Could you please clarify or rephrase your request? - Thread-2 (_run_event_loop)
+2025-07-08 20:48:52,686[src.application] - INFO - << I'm here to help! - Thread-2 (_run_event_loop)
+2025-07-08 20:48:54,412[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:48:54,934[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:48:59,833[src.application] - INFO - >> My name is. - Thread-2 (_run_event_loop)
+2025-07-08 20:49:00,062[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:49:00,264[src.application] - INFO - << It looks like your message got cut off again. - Thread-2 (_run_event_loop)
+2025-07-08 20:49:02,837[src.application] - INFO - << Could you please tell me your name so I can address you correctly? - Thread-2 (_run_event_loop)
+2025-07-08 20:49:06,369[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:49:06,890[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:49:10,588[src.application] - INFO - >> My name is flower. - Thread-2 (_run_event_loop)
+2025-07-08 20:49:10,739[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:49:11,017[src.application] - INFO - << Nice to meet you, Flower! - Thread-2 (_run_event_loop)
+2025-07-08 20:49:13,169[src.application] - INFO - << How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:49:15,250[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:49:15,902[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:49:19,437[src.application] - INFO - >> 喂你为什么？ - Thread-2 (_run_event_loop)
+2025-07-08 20:49:19,506[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:49:19,589[src.application] - INFO - << Hello, Flower! - Thread-2 (_run_event_loop)
+2025-07-08 20:49:21,258[src.application] - INFO - << I'm here to assist you with any questions or tasks you have. - Thread-2 (_run_event_loop)
+2025-07-08 20:49:24,842[src.application] - INFO - << How can I help you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:49:26,656[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:49:30,544[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:49:33,031[src.audio_codecs.audio_codec] - INFO - Cleared audio queue, discarded 2 audio frames - Thread-1 (_main_loop)
+2025-07-08 20:49:33,034[src.application] - INFO - >> My name is. - Thread-2 (_run_event_loop)
+2025-07-08 20:49:33,347[src.application] - INFO - << It looks like your message got cut off. - Thread-2 (_run_event_loop)
+2025-07-08 20:49:33,349[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:49:35,697[src.application] - INFO - << Could you please tell me your name again? - Thread-2 (_run_event_loop)
+2025-07-08 20:49:37,950[src.application] - INFO - << I want to make sure I address you correctly. - Thread-2 (_run_event_loop)
+2025-07-08 20:49:40,525[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:49:41,046[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:49:44,720[src.application] - INFO - >> My name isu. - Thread-2 (_run_event_loop)
+2025-07-08 20:49:44,846[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:49:45,014[src.application] - INFO - << Nice to meet you, U! - Thread-2 (_run_event_loop)
+2025-07-08 20:49:47,475[src.application] - INFO - << How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:49:49,482[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:49:50,003[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:49:56,630[src.application] - INFO - >> My name is Dan. - Thread-2 (_run_event_loop)
+2025-07-08 20:49:56,754[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:49:56,899[src.application] - INFO - << Nice to meet you, Dan! - Thread-2 (_run_event_loop)
+2025-07-08 20:49:58,635[src.application] - INFO - << How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:50:00,804[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:50:01,325[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:50:05,970[src.application] - INFO - >> Can you please bring me a break. - Thread-2 (_run_event_loop)
+2025-07-08 20:50:06,115[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:50:06,314[src.application] - INFO - << Sure, Dan! - Thread-2 (_run_event_loop)
+2025-07-08 20:50:07,971[src.application] - INFO - << I can help you take a break by suggesting some relaxation techniques or playing some calming music if you'd like. - Thread-2 (_run_event_loop)
+2025-07-08 20:50:14,267[src.application] - INFO - << What would you prefer? - Thread-2 (_run_event_loop)
+2025-07-08 20:50:15,757[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:50:16,410[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:50:25,849[src.application] - INFO - >> Do you know my. - Thread-2 (_run_event_loop)
+2025-07-08 20:50:26,083[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:50:26,590[src.application] - INFO - << It looks like your message got cut off again, - Thread-2 (_run_event_loop)
+2025-07-08 20:50:28,844[src.application] - INFO - << Dan. Could you please complete your sentence so I can understand what you need help with? - Thread-2 (_run_event_loop)
+2025-07-08 20:50:33,945[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:50:34,544[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:50:38,737[src.application] - INFO - >> Do you know Mal owner, who is mal owner. - Thread-2 (_run_event_loop)
+2025-07-08 20:50:38,880[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:50:39,288[src.application] - INFO - << I'm not sure what you mean by "Mal owner." Could you provide more context or clarify your question? - Thread-2 (_run_event_loop)
+2025-07-08 20:50:45,267[src.application] - INFO - << I'm here to help if I can! - Thread-2 (_run_event_loop)
+2025-07-08 20:50:47,310[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:50:47,832[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:50:51,276[src.application] - INFO - >> My owner is my son. - Thread-2 (_run_event_loop)
+2025-07-08 20:50:51,585[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:50:51,587[src.application] - INFO - << Got it, Dan. Your son is your owner. - Thread-2 (_run_event_loop)
+2025-07-08 20:50:53,726[src.application] - INFO - << Is there anything specific you'd like to talk about or ask? - Thread-2 (_run_event_loop)
+2025-07-08 20:50:57,132[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:50:57,657[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:51:04,037[src.application] - INFO - >> Do you know anyone cow. - Thread-2 (_run_event_loop)
+2025-07-08 20:51:04,175[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:51:04,786[src.application] - INFO - << I'm not sure what you mean by "Do you know anyone cow." Could you please clarify your question or provide more details? - Thread-2 (_run_event_loop)
+2025-07-08 20:51:11,648[src.application] - INFO - << I'm here to help if I can! - Thread-2 (_run_event_loop)
+2025-07-08 20:51:13,468[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:51:13,994[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:51:18,938[src.application] - INFO - >> My name is rabbit, Dan. - Thread-2 (_run_event_loop)
+2025-07-08 20:51:19,086[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:51:19,229[src.application] - INFO - << Hello, Rabbit Dan! - Thread-2 (_run_event_loop)
+2025-07-08 20:51:21,107[src.application] - INFO - << How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:51:23,253[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:51:23,774[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:51:30,860[src.application] - INFO - >> My name is红。 - Thread-2 (_run_event_loop)
+2025-07-08 20:51:31,029[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:51:31,170[src.application] - INFO - << Nice to meet you, 红! - Thread-2 (_run_event_loop)
+2025-07-08 20:51:33,254[src.application] - INFO - << How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:51:35,453[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:51:35,974[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:51:39,835[src.application] - INFO - >> Could you please. - Thread-2 (_run_event_loop)
+2025-07-08 20:51:40,022[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:51:40,275[src.application] - INFO - << Sure, 红! - Thread-2 (_run_event_loop)
+2025-07-08 20:51:41,775[src.application] - INFO - << Could you please complete your request so I can understand how to assist you? - Thread-2 (_run_event_loop)
+2025-07-08 20:51:45,943[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:51:46,465[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:51:50,460[src.application] - INFO - >> I language It I want to learn. - Thread-2 (_run_event_loop)
+2025-07-08 20:51:50,639[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:51:50,651[src.application] - INFO - << I see! - Thread-2 (_run_event_loop)
+2025-07-08 20:51:51,857[src.application] - INFO - << You want to learn a language. - Thread-2 (_run_event_loop)
+2025-07-08 20:51:53,676[src.application] - INFO - << Which language are you interested in learning, and how can I help you get started? - Thread-2 (_run_event_loop)
+2025-07-08 20:51:58,831[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:51:59,364[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:52:01,988[src.application] - INFO - >> Tguage. - Thread-2 (_run_event_loop)
+2025-07-08 20:52:02,254[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:52:02,400[src.application] - INFO - << I think you might mean "language." Which language would you like to learn? - Thread-2 (_run_event_loop)
+2025-07-08 20:52:06,432[src.application] - INFO - << I can help with resources or practice if you let me know which one. - Thread-2 (_run_event_loop)
+2025-07-08 20:52:10,479[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:52:11,034[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:52:14,525[src.application] - INFO - >> Co on language. - Thread-2 (_run_event_loop)
+2025-07-08 20:52:14,657[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:52:14,799[src.application] - INFO - << Sure thing! - Thread-2 (_run_event_loop)
+2025-07-08 20:52:16,673[src.application] - INFO - << What specific language are you interested in learning? - Thread-2 (_run_event_loop)
+2025-07-08 20:52:20,052[src.application] - INFO - << I can help with practice, resources, or anything else you need. - Thread-2 (_run_event_loop)
+2025-07-08 20:52:24,574[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:52:28,310[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:52:29,491[src.application] - INFO - >> 你看。 - Thread-2 (_run_event_loop)
+2025-07-08 20:52:29,779[src.application] - INFO - << 你好！你想学习哪种语言呢？ - Thread-2 (_run_event_loop)
+2025-07-08 20:52:29,782[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:52:32,647[src.application] - INFO - << 我可以帮助你开始学习。 - Thread-2 (_run_event_loop)
+2025-07-08 20:52:34,923[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:52:35,582[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:52:37,399[src.application] - INFO - >> Yeah. - Thread-2 (_run_event_loop)
+2025-07-08 20:52:37,529[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:52:37,651[src.application] - INFO - << 好的，你想学习哪种语言？ - Thread-2 (_run_event_loop)
+2025-07-08 20:52:40,533[src.application] - INFO - << 我可以提供一些资源或者帮助你开始练习。 - Thread-2 (_run_event_loop)
+2025-07-08 20:52:44,325[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:52:44,885[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:52:47,635[src.application] - INFO - >> 안녕하세요. - Thread-2 (_run_event_loop)
+2025-07-08 20:52:47,920[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:52:47,942[src.application] - INFO - << 当前音色不支持回复语言，请点击右上角切换合适音色。 - Thread-2 (_run_event_loop)
+2025-07-08 20:52:53,561[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:52:54,095[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:52:57,878[src.application] - INFO - >> 안녕하세요. - Thread-2 (_run_event_loop)
+2025-07-08 20:52:58,020[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:52:58,168[src.application] - INFO - << 当前音色不支持回复语言，请点击右上角切换合适音色。 - Thread-2 (_run_event_loop)
+2025-07-08 20:53:03,525[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:53:04,085[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:53:07,081[src.application] - INFO - >> 안녕하세요 how are you? - Thread-2 (_run_event_loop)
+2025-07-08 20:53:07,290[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:53:07,310[src.application] - INFO - << 当前音色不支持回复语言，请点击右上角切换合适音色。 - Thread-2 (_run_event_loop)
+2025-07-08 20:53:12,742[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:53:13,353[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:53:19,006[src.application] - INFO - >> I don't understand. Please translate also. - Thread-2 (_run_event_loop)
+2025-07-08 20:53:19,266[src.application] - INFO - << Sure! I said, "Hello! - Thread-2 (_run_event_loop)
+2025-07-08 20:53:19,274[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:53:21,669[src.application] - INFO - << I'm doing well. - Thread-2 (_run_event_loop)
+2025-07-08 20:53:23,438[src.application] - INFO - << How can I help you? - Thread-2 (_run_event_loop)
+2025-07-08 20:53:25,077[src.application] - INFO - << "
+
+If you have any questions or need assistance with learning Korean or anything else, just let me know! - Thread-2 (_run_event_loop)
+2025-07-08 20:53:30,300[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:53:30,942[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:53:33,961[src.application] - INFO - >> Yes, please train me. - Thread-2 (_run_event_loop)
+2025-07-08 20:53:34,052[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:53:34,224[src.application] - INFO - << Great! What aspect of Korean would you like to start with? - Thread-2 (_run_event_loop)
+2025-07-08 20:53:37,996[src.application] - INFO - << Vocabulary, grammar, or maybe some basic phrases? - Thread-2 (_run_event_loop)
+2025-07-08 20:53:42,438[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:53:42,959[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:53:45,916[src.application] - INFO - >> Cab, vocabulary please. - Thread-2 (_run_event_loop)
+2025-07-08 20:53:46,074[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:53:46,377[src.application] - INFO - << Sure! Let's start with some basic Korean vocabulary. - Thread-2 (_run_event_loop)
+2025-07-08 20:53:50,269[src.application] - INFO - << Here are a few common words: - Thread-2 (_run_event_loop)
+2025-07-08 20:53:52,287[src.application] - INFO - << 안녕하세요   - Hello。 - Thread-2 (_run_event_loop)
+2025-07-08 20:53:53,337[src.application] - INFO - << 감사합니다   - Thank you。 - Thread-2 (_run_event_loop)
+2025-07-08 20:53:56,624[src.application] - INFO - << 미안합니다   - Sorry。 - Thread-2 (_run_event_loop)
+2025-07-08 20:53:57,763[src.application] - INFO - << 네   - Yes。 - Thread-2 (_run_event_loop)
+2025-07-08 20:53:58,974[src.application] - INFO - << 아니요   - No。 - Thread-2 (_run_event_loop)
+2025-07-08 20:53:59,895[src.application] - INFO - << 이름   - Name。 - Thread-2 (_run_event_loop)
+2025-07-08 20:54:00,919[src.application] - INFO - << 집   - Home。 - Thread-2 (_run_event_loop)
+2025-07-08 20:54:03,319[src.application] - INFO - << 친구   - Friend。 - Thread-2 (_run_event_loop)
+2025-07-08 20:54:04,369[src.application] - INFO - << 학교   - School。 - Thread-2 (_run_event_loop)
+2025-07-08 20:54:06,754[src.application] - INFO - << 식당   - Restaurant。 - Thread-2 (_run_event_loop)
+2025-07-08 20:54:07,971[src.application] - INFO - << Would you like to practice these words or learn more? - Thread-2 (_run_event_loop)
+2025-07-08 20:54:11,330[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:54:11,984[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:54:16,303[src.application] - INFO - >> Yeah, let's, let's practice this bird. - Thread-2 (_run_event_loop)
+2025-07-08 20:54:16,464[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:54:16,625[src.application] - INFO - << Sure! Let's practice these words. - Thread-2 (_run_event_loop)
+2025-07-08 20:54:19,351[src.application] - INFO - << I'll say a word in Korean, and you can repeat it. - Thread-2 (_run_event_loop)
+2025-07-08 20:54:22,832[src.application] - INFO - << Are you ready? - Thread-2 (_run_event_loop)
+2025-07-08 20:54:23,959[src.application] - INFO - << one.  안녕하세요   - Hello。 - Thread-2 (_run_event_loop)
+2025-07-08 20:54:25,899[src.application] - INFO - << Go ahead and repeat it! - Thread-2 (_run_event_loop)
+2025-07-08 20:54:27,906[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:54:28,428[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:54:31,088[src.application] - INFO - >> Hello. - Thread-2 (_run_event_loop)
+2025-07-08 20:54:31,243[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:54:31,389[src.application] - INFO - << Great! Let's try the Korean pronunciation. - Thread-2 (_run_event_loop)
+2025-07-08 20:54:34,404[src.application] - INFO - << Repeat after me: - Thread-2 (_run_event_loop)
+2025-07-08 20:54:36,045[src.application] - INFO - << 안녕하세요   - Hello。 - Thread-2 (_run_event_loop)
+2025-07-08 20:54:37,364[src.application] - INFO - << Try saying it now! - Thread-2 (_run_event_loop)
+2025-07-08 20:54:39,290[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:54:39,811[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:54:42,321[src.application] - INFO - >> 打开了。 - Thread-2 (_run_event_loop)
+2025-07-08 20:54:42,496[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:54:42,631[src.application] - INFO - << It looks like your message got a bit mixed up. - Thread-2 (_run_event_loop)
+2025-07-08 20:54:45,464[src.application] - INFO - << Let's try again with the Korean word: - Thread-2 (_run_event_loop)
+2025-07-08 20:54:47,932[src.application] - INFO - << 안녕하세요   - Hello。 - Thread-2 (_run_event_loop)
+2025-07-08 20:54:49,305[src.application] - INFO - << Can you repeat it? - Thread-2 (_run_event_loop)
+2025-07-08 20:54:50,791[src.application] - INFO - << 안녕하세요。 - Thread-2 (_run_event_loop)
+2025-07-08 20:54:50,849[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:54:51,493[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:54:54,737[src.application] - INFO - >> hellello. - Thread-2 (_run_event_loop)
+2025-07-08 20:54:54,892[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:54:55,192[src.application] - INFO - << Good effort! - Thread-2 (_run_event_loop)
+2025-07-08 20:54:56,215[src.application] - INFO - << Let's try it again to get the pronunciation closer to Korean: - Thread-2 (_run_event_loop)
+2025-07-08 20:54:59,617[src.application] - INFO - << 안녕하세요   - Hello。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:00,934[src.application] - INFO - << Try saying it now: 안녕하세요。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:06,405[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:55:06,926[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:55:10,168[src.application] - INFO - >> 근데。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:10,308[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:55:10,464[src.application] - INFO - << Let's focus on the word we're practicing: - Thread-2 (_run_event_loop)
+2025-07-08 20:55:13,214[src.application] - INFO - << 안녕하세요   - Hello。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:14,455[src.application] - INFO - << Try saying it again: 안녕하세요。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:20,432[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:55:21,093[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:55:24,306[src.application] - INFO - >> 打开喽。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:24,590[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:55:24,627[src.application] - INFO - << It looks like there might be some confusion. - Thread-2 (_run_event_loop)
+2025-07-08 20:55:27,138[src.application] - INFO - << Let's stick to practicing the Korean word: - Thread-2 (_run_event_loop)
+2025-07-08 20:55:30,271[src.application] - INFO - << 안녕하세요   - Hello。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:31,552[src.application] - INFO - << Can you try repeating it in Korean? - Thread-2 (_run_event_loop)
+2025-07-08 20:55:33,917[src.application] - INFO - << 안녕하세요。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:34,186[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:55:34,707[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:55:37,187[src.application] - INFO - >> 打开楼。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:37,383[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:55:37,586[src.application] - INFO - << Let's focus on the Korean word we're practicing: - Thread-2 (_run_event_loop)
+2025-07-08 20:55:40,977[src.application] - INFO - << 안녕하세요   - Hello。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:42,390[src.application] - INFO - << Can you try repeating it? - Thread-2 (_run_event_loop)
+2025-07-08 20:55:44,359[src.application] - INFO - << 안녕하세요。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:44,603[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:55:45,124[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:55:50,503[src.application] - INFO - >> A police say only on, not English. - Thread-2 (_run_event_loop)
+2025-07-08 20:55:50,772[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:55:51,001[src.application] - INFO - << I see. Let's focus on practicing Korean then. - Thread-2 (_run_event_loop)
+2025-07-08 20:55:54,618[src.application] - INFO - << Here is the word again: - Thread-2 (_run_event_loop)
+2025-07-08 20:55:56,429[src.application] - INFO - << 안녕하세요   - Hello。 - Thread-2 (_run_event_loop)
+2025-07-08 20:55:57,862[src.application] - INFO - << Can you try repeating it in Korean? - Thread-2 (_run_event_loop)
+2025-07-08 20:56:00,217[src.application] - INFO - << 안녕하세요。 - Thread-2 (_run_event_loop)
+2025-07-08 20:56:00,269[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:56:00,863[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:56:02,871[src.application] - INFO - >> 我不了。 - Thread-2 (_run_event_loop)
+2025-07-08 20:56:03,130[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:56:03,271[src.application] - INFO - << 好的，如果你暂时不想继续练习韩语，也没关系。 - Thread-2 (_run_event_loop)
+2025-07-08 20:56:08,309[src.application] - INFO - << 有什么其他事情我可以帮助你的吗？ - Thread-2 (_run_event_loop)
+2025-07-08 20:56:11,483[src.application] - INFO - << 或者你想尝试其他语言或话题？ - Thread-2 (_run_event_loop)
+2025-07-08 20:56:15,071[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:56:15,638[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:56:19,563[src.application] - INFO - >> 喺住板嚟噶。 - Thread-2 (_run_event_loop)
+2025-07-08 20:56:19,880[src.application] - INFO - << 看起来你可能在使用粤语。 - Thread-2 (_run_event_loop)
+2025-07-08 20:56:19,886[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:56:22,336[src.application] - INFO - << 你想用粤语聊天或学习吗？ - Thread-2 (_run_event_loop)
+2025-07-08 20:56:24,794[src.application] - INFO - << 或者有其他什么我可以帮助你的吗？ - Thread-2 (_run_event_loop)
+2025-07-08 20:56:27,644[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:56:31,429[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:56:36,436[src.application] - INFO - >> Ha 말라고, I don't understood you. - Thread-2 (_run_event_loop)
+2025-07-08 20:56:36,453[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/thinking.gif - MainThread
+2025-07-08 20:56:36,613[src.application] - INFO - << I see. - Thread-2 (_run_event_loop)
+2025-07-08 20:56:37,691[src.application] - INFO - << Let's try to clarify. - Thread-2 (_run_event_loop)
+2025-07-08 20:56:39,610[src.application] - INFO - << If you prefer to speak in Korean or English, please let me know. - Thread-2 (_run_event_loop)
+2025-07-08 20:56:43,432[src.application] - INFO - << How can I assist you better? - Thread-2 (_run_event_loop)
+2025-07-08 20:56:45,669[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:56:46,190[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:56:50,684[src.application] - INFO - >> My name is Ha라. - Thread-2 (_run_event_loop)
+2025-07-08 20:56:50,811[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:56:50,956[src.application] - INFO - << Nice to meet you, Ha! - Thread-2 (_run_event_loop)
+2025-07-08 20:56:52,853[src.application] - INFO - << How can I assist you today? - Thread-2 (_run_event_loop)
+2025-07-08 20:56:54,696[src.application] - INFO - << Would you like to continue practicing Korean or switch to another topic? - Thread-2 (_run_event_loop)
+2025-07-08 20:56:58,768[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:56:59,290[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:57:05,636[src.application] - INFO - >> Malay language is English, but we want to learn Korea. - Thread-2 (_run_event_loop)
+2025-07-08 20:57:05,865[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:57:05,959[src.application] - INFO - << Got it, Ha! - Thread-2 (_run_event_loop)
+2025-07-08 20:57:07,188[src.application] - INFO - << You want to learn Korean. - Thread-2 (_run_event_loop)
+2025-07-08 20:57:08,930[src.application] - INFO - << Let's continue with some basic Korean vocabulary and phrases. - Thread-2 (_run_event_loop)
+2025-07-08 20:57:13,113[src.application] - INFO - << Here are a few more words: - Thread-2 (_run_event_loop)
+2025-07-08 20:57:14,976[src.application] - INFO - << 집   - Home。 - Thread-2 (_run_event_loop)
+2025-07-08 20:57:17,327[src.application] - INFO - << 학교   - School。 - Thread-2 (_run_event_loop)
+2025-07-08 20:57:20,611[src.application] - INFO - << 친구   - Friend。 - Thread-2 (_run_event_loop)
+2025-07-08 20:57:21,233[src.application] - INFO - << 식당   - Restaurant。 - Thread-2 (_run_event_loop)
+2025-07-08 20:57:22,293[src.application] - INFO - << 물   - Water。 - Thread-2 (_run_event_loop)
+2025-07-08 20:57:23,490[src.application] - INFO - << 밥   - Rice。 - Thread-2 (_run_event_loop)
+2025-07-08 20:57:24,699[src.application] - INFO - << 고마워요   - Thank you  。 - Thread-2 (_run_event_loop)
+2025-07-08 20:57:26,974[src.application] - INFO - << 미안해요   - Sorry  。 - Thread-2 (_run_event_loop)
+2025-07-08 20:57:28,078[src.application] - INFO - << Would you like to practice these words or learn more phrases? - Thread-2 (_run_event_loop)
+2025-07-08 20:57:31,750[src.audio_codecs.audio_codec] - INFO - Audio input stream reinitialized successfully - Thread-1 (_main_loop)
+2025-07-08 20:57:35,708[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-08 20:57:40,306[src.application] - INFO - >> Yeah whats the thank you Korean language. - Thread-2 (_run_event_loop)
+2025-07-08 20:57:40,371[src.audio_codecs.audio_codec] - INFO - Cleared audio queue, discarded 9 audio frames - Thread-1 (_main_loop)
+2025-07-08 20:57:40,424[Display] - INFO - Setting emotion GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-08 20:57:41,086[src.application] - INFO - << Sure! In Korean, "thank you" can be said in a few different ways depending on the formality: - Thread-2 (_run_event_loop)
+2025-07-08 20:57:46,614[src.application] - INFO - << 감사합니다   - This is a polite and formal way to say "thank you." - Thread-2 (_run_event_loop)
+2025-07-08 20:57:51,221[src.application] - INFO - << 고마워요   - This is a more casual way to say "thank you." - Thread-2 (_run_event_loop)
+2025-07-08 20:57:55,983[src.application] - INFO - << Would you like to practice saying these? - Thread-2 (_run_event_loop)
+2025-07-08 20:57:57,502[__main__] - INFO - Received interrupt signal, shutting down... - MainThread
+2025-07-08 20:57:57,503[src.application] - INFO - Shutting down application... - MainThread
+2025-07-08 20:57:57,503[src.audio_codecs.audio_codec] - INFO - Starting to close audio codec... - MainThread
+2025-07-08 20:57:57,533[src.audio_codecs.audio_codec] - INFO - Cleared audio queue, discarded 2 audio frames - MainThread
+2025-07-08 20:57:57,544[src.audio_codecs.audio_codec] - INFO - Audio resources fully released - MainThread
+2025-07-08 20:57:57,544[src.audio_codecs.audio_codec] - WARNING - Output stream not active, discarding frame - Thread-1 (_main_loop)
+2025-07-08 20:57:57,545[src.application] - INFO - Application shut down - MainThread

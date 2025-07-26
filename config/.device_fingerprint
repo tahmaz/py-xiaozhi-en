@@ -1,0 +1,24 @@
+{
+  "system": "Linux",
+  "hostname": "HP",
+  "mac_address": "20:4e:f6:86:5a:4f",
+  "mac_type": "物理网卡",
+  "bluetooth_mac": null,
+  "cpu": {
+    "processor": "x86_64",
+    "machine": "x86_64",
+    "name": "Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz",
+    "cores": 6
+  },
+  "disks": [
+    {
+      "model": "KINGSTON SA2000M81000G",
+      "serial": "50026B7684865D80",
+      "size": "931,5G"
+    }
+  ],
+  "motherboard": {
+    "manufacturer": "HP",
+    "model": "8741"
+  }
+}

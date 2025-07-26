@@ -1,0 +1,5 @@
+2025-07-21 14:16:57,989[__main__] - INFO - Received interrupt signal, shutting down... - MainThread
+2025-07-21 14:16:57,989[src.application] - INFO - Shutting down application... - MainThread
+2025-07-21 14:16:57,990[src.audio_codecs.audio_codec] - INFO - Starting to close audio codec... - MainThread
+2025-07-21 14:16:57,995[src.audio_codecs.audio_codec] - INFO - Audio resources fully released - MainThread
+2025-07-21 14:16:57,995[src.application] - INFO - Application shut down - MainThread

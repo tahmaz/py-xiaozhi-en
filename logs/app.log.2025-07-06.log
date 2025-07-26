@@ -1,0 +1,539 @@
+2025-07-06 18:22:23,993[root] - INFO - 日志系统已初始化，日志文件: /home/tahmaz/py-xiaozhi/logs/app.log - MainThread
+2025-07-06 18:22:25,719[src.utils.config_manager] - INFO - MQTT服务器信息已更新 - MainThread
+2025-07-06 18:22:25,721[src.utils.config_manager] - INFO - MQTT信息已成功更新 - MainThread
+2025-07-06 18:22:25,722[src.utils.config_manager] - INFO - 检测到WebSocket配置信息 - MainThread
+2025-07-06 18:22:25,723[src.utils.config_manager] - INFO - WebSocket URL已更新: wss://api.tenclass.net/xiaozhi/v1/ - MainThread
+2025-07-06 18:22:25,724[src.utils.config_manager] - INFO - WebSocket Token已更新 - MainThread
+2025-07-06 18:22:26,725[src.utils.device_activator] - INFO - 设备身份信息: 序列号: SN-F0088FE6-204ef6865a4f, 激活状态: 未激活 - MainThread
+2025-07-06 18:22:26,726[src.utils.config_manager] - INFO - 检测到激活请求，开始设备激活流程 - MainThread
+2025-07-06 18:22:26,726[src.utils.device_activator] - INFO - 激活提示: xiaozhi.me
+960817 - MainThread
+2025-07-06 18:22:26,727[src.utils.device_activator] - INFO - 验证码: 960817 - MainThread
+2025-07-06 18:22:26,728[src.utils.common_utils] - INFO - 已从文本中提取验证码: 960817 - MainThread
+2025-07-06 18:22:26,784[src.utils.common_utils] - INFO - 文本 "960817" 已复制到剪贴板 - MainThread
+2025-07-06 18:22:27,514[src.utils.common_utils] - INFO - 已成功打开网页: https://xiaozhi.me/ - MainThread
+2025-07-06 18:22:27,514[src.utils.common_utils] - INFO - 已启动非阻塞音频播放线程 - MainThread
+2025-07-06 18:22:27,515[src.utils.device_activator] - INFO - 正在播放验证码语音提示 - MainThread
+2025-07-06 18:22:27,515[src.utils.device_activator] - INFO - 尝试激活 (尝试 1/60)... - MainThread
+2025-07-06 18:22:27,516[src.utils.common_utils] - INFO - 已使用espeak播放文本 - Thread-1 (audio_worker)
+2025-07-06 18:22:43,491[src.utils.device_activator] - INFO - 尝试激活 (尝试 2/60)... - MainThread
+2025-07-06 18:22:59,398[src.utils.device_activator] - INFO - 尝试激活 (尝试 3/60)... - MainThread
+2025-07-06 18:23:15,322[src.utils.device_activator] - INFO - 尝试激活 (尝试 4/60)... - MainThread
+2025-07-06 18:23:31,222[src.utils.device_activator] - INFO - 尝试激活 (尝试 5/60)... - MainThread
+2025-07-06 18:23:47,459[src.utils.device_activator] - INFO - 尝试激活 (尝试 6/60)... - MainThread
+2025-07-06 18:24:03,324[src.utils.device_activator] - INFO - 尝试激活 (尝试 7/60)... - MainThread
+2025-07-06 18:24:19,032[src.utils.device_activator] - INFO - 尝试激活 (尝试 8/60)... - MainThread
+2025-07-06 18:24:34,716[src.utils.device_activator] - INFO - 尝试激活 (尝试 9/60)... - MainThread
+2025-07-06 18:24:50,901[src.utils.device_activator] - INFO - 尝试激活 (尝试 10/60)... - MainThread
+2025-07-06 18:25:06,842[src.utils.device_activator] - INFO - 尝试激活 (尝试 11/60)... - MainThread
+2025-07-06 18:25:22,908[src.utils.device_activator] - INFO - 尝试激活 (尝试 12/60)... - MainThread
+2025-07-06 18:25:38,772[src.utils.device_activator] - INFO - 尝试激活 (尝试 13/60)... - MainThread
+2025-07-06 18:25:55,296[src.utils.device_activator] - INFO - 尝试激活 (尝试 14/60)... - MainThread
+2025-07-06 18:26:11,422[src.utils.device_activator] - INFO - 尝试激活 (尝试 15/60)... - MainThread
+2025-07-06 18:26:27,333[src.utils.device_activator] - INFO - 尝试激活 (尝试 16/60)... - MainThread
+2025-07-06 18:26:43,325[src.utils.device_activator] - INFO - 尝试激活 (尝试 17/60)... - MainThread
+2025-07-06 18:26:59,016[src.utils.device_activator] - INFO - 尝试激活 (尝试 18/60)... - MainThread
+2025-07-06 18:27:02,375[__main__] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-07-06 18:27:02,376[src.application] - INFO - 正在关闭应用程序... - MainThread
+2025-07-06 18:27:02,376[src.utils.device_activator] - WARNING - 激活过程中发生错误: 'Application' object has no attribute 'audio_codec'，重试中... - MainThread
+2025-07-06 18:27:06,706[__main__] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-07-06 18:27:06,706[src.application] - INFO - 正在关闭应用程序... - MainThread
+2025-07-06 18:27:06,706[src.utils.config_manager] - ERROR - 初始化MQTT信息失败: 'Application' object has no attribute 'audio_codec' - MainThread
+2025-07-06 18:27:06,707[__main__] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-07-06 18:27:06,707[src.application] - INFO - 启动应用程序，参数: {'mode': 'gui', 'protocol': 'websocket'} - MainThread
+2025-07-06 18:27:06,707[src.application] - INFO - 主循环已启动 - Thread-2 (_main_loop)
+2025-07-06 18:27:06,808[src.application] - INFO - 正在初始化应用程序组件... - Thread-3 (_run_event_loop)
+2025-07-06 18:27:07,165[src.audio_codecs.audio_codec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-07-06 18:27:07,165[src.application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-07-06 18:27:07,165[src.application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-07-06 18:27:07,165[src.application] - INFO - 唤醒词功能已在配置中禁用，跳过初始化 - Thread-3 (_run_event_loop)
+2025-07-06 18:27:07,165[src.application] - INFO - 应用程序组件初始化完成 - Thread-3 (_run_event_loop)
+2025-07-06 18:27:07,616[src.iot.things.music_player] - INFO - 音乐播放器初始化完成 - MainThread
+2025-07-06 18:27:07,652[src.application] - INFO - 已添加倒计时器设备,用于计时执行命令用 - MainThread
+2025-07-06 18:27:07,652[src.application] - INFO - 物联网设备初始化完成 - MainThread
+2025-07-06 18:27:07,653[GuiDisplay] - INFO - 音量控制器初始化成功 - MainThread
+2025-07-06 18:27:07,662[GuiDisplay] - INFO - 读取到系统音量: 46% - MainThread
+2025-07-06 18:27:07,812[Display] - INFO - 已添加快捷键提示标签 - MainThread
+2025-07-06 18:27:07,812[Display] - INFO - 使用 stackedWidget 的第2个页面作为 iot_card: <PyQt5.QtWidgets.QWidget object at 0x707c31760040> - MainThread
+2025-07-06 18:27:07,827[Display] - INFO - 系统托盘图标已初始化 - MainThread
+2025-07-06 18:27:07,828[Display] - INFO - 键盘监听器初始化成功 - MainThread
+2025-07-06 18:27:07,862[Display] - INFO - 开始启动GUI主循环 - MainThread
+2025-07-06 18:27:07,950[__main__] - INFO - 开始Qt事件循环 - MainThread
+2025-07-06 18:27:07,951[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 18:27:07,952[Display] - INFO - 加载GIF文件: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 18:27:20,036[__main__] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-07-06 18:27:20,036[src.application] - INFO - 正在关闭应用程序... - MainThread
+2025-07-06 18:27:20,037[src.audio_codecs.audio_codec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-07-06 18:27:20,044[src.audio_codecs.audio_codec] - INFO - 音频资源已完全释放 - MainThread
+2025-07-06 18:27:20,044[src.application] - INFO - 应用程序已关闭 - MainThread
+2025-07-06 18:27:21,877[root] - INFO - 日志系统已初始化，日志文件: /home/tahmaz/py-xiaozhi/logs/app.log - MainThread
+2025-07-06 18:27:22,919[src.utils.config_manager] - INFO - MQTT服务器信息已更新 - MainThread
+2025-07-06 18:27:22,921[src.utils.config_manager] - INFO - MQTT信息已成功更新 - MainThread
+2025-07-06 18:27:22,921[src.utils.config_manager] - INFO - 检测到WebSocket配置信息 - MainThread
+2025-07-06 18:27:22,923[src.utils.config_manager] - INFO - WebSocket URL已更新: wss://api.tenclass.net/xiaozhi/v1/ - MainThread
+2025-07-06 18:27:22,924[src.utils.config_manager] - INFO - WebSocket Token已更新 - MainThread
+2025-07-06 18:27:23,925[src.utils.device_activator] - INFO - 设备身份信息: 序列号: SN-F0088FE6-204ef6865a4f, 激活状态: 未激活 - MainThread
+2025-07-06 18:27:23,925[src.utils.config_manager] - INFO - 检测到激活请求，开始设备激活流程 - MainThread
+2025-07-06 18:27:23,926[src.utils.device_activator] - INFO - 激活提示: xiaozhi.me
+960817 - MainThread
+2025-07-06 18:27:23,927[src.utils.device_activator] - INFO - 验证码: 960817 - MainThread
+2025-07-06 18:27:23,927[src.utils.common_utils] - INFO - 已从文本中提取验证码: 960817 - MainThread
+2025-07-06 18:27:23,946[src.utils.common_utils] - INFO - 文本 "960817" 已复制到剪贴板 - MainThread
+2025-07-06 18:27:24,530[src.utils.common_utils] - INFO - 已成功打开网页: https://xiaozhi.me/ - MainThread
+2025-07-06 18:27:24,530[src.utils.common_utils] - INFO - 已启动非阻塞音频播放线程 - MainThread
+2025-07-06 18:27:24,530[src.utils.device_activator] - INFO - 正在播放验证码语音提示 - MainThread
+2025-07-06 18:27:24,531[src.utils.device_activator] - INFO - 尝试激活 (尝试 1/60)... - MainThread
+2025-07-06 18:27:24,531[src.utils.common_utils] - INFO - 已使用espeak播放文本 - Thread-1 (audio_worker)
+2025-07-06 18:27:40,332[src.utils.device_activator] - INFO - 尝试激活 (尝试 2/60)... - MainThread
+2025-07-06 18:27:56,075[src.utils.device_activator] - INFO - 尝试激活 (尝试 3/60)... - MainThread
+2025-07-06 18:27:56,140[__main__] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-07-06 18:27:56,140[src.application] - INFO - 正在关闭应用程序... - MainThread
+2025-07-06 18:27:56,141[src.utils.device_activator] - WARNING - 激活过程中发生错误: 'Application' object has no attribute 'audio_codec'，重试中... - MainThread
+2025-07-06 18:28:00,911[__main__] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-07-06 18:28:00,912[src.application] - INFO - 正在关闭应用程序... - MainThread
+2025-07-06 18:28:00,912[src.utils.config_manager] - ERROR - 初始化MQTT信息失败: 'Application' object has no attribute 'audio_codec' - MainThread
+2025-07-06 18:28:00,914[__main__] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-07-06 18:28:00,914[src.application] - INFO - 启动应用程序，参数: {'mode': 'gui', 'protocol': 'websocket'} - MainThread
+2025-07-06 18:28:00,915[src.application] - INFO - 主循环已启动 - Thread-2 (_main_loop)
+2025-07-06 18:28:01,017[src.application] - INFO - 正在初始化应用程序组件... - Thread-3 (_run_event_loop)
+2025-07-06 18:28:01,281[src.audio_codecs.audio_codec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-07-06 18:28:01,281[src.application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-07-06 18:28:01,281[src.application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-07-06 18:28:01,281[src.application] - INFO - 唤醒词功能已在配置中禁用，跳过初始化 - Thread-3 (_run_event_loop)
+2025-07-06 18:28:01,281[src.application] - INFO - 应用程序组件初始化完成 - Thread-3 (_run_event_loop)
+2025-07-06 18:28:01,585[src.iot.things.music_player] - INFO - 音乐播放器初始化完成 - MainThread
+2025-07-06 18:28:01,613[src.application] - INFO - 已添加倒计时器设备,用于计时执行命令用 - MainThread
+2025-07-06 18:28:01,613[src.application] - INFO - 物联网设备初始化完成 - MainThread
+2025-07-06 18:28:01,614[GuiDisplay] - INFO - 音量控制器初始化成功 - MainThread
+2025-07-06 18:28:01,621[GuiDisplay] - INFO - 读取到系统音量: 46% - MainThread
+2025-07-06 18:28:01,730[Display] - INFO - 已添加快捷键提示标签 - MainThread
+2025-07-06 18:28:01,731[Display] - INFO - 使用 stackedWidget 的第2个页面作为 iot_card: <PyQt5.QtWidgets.QWidget object at 0x7121acd7c040> - MainThread
+2025-07-06 18:28:01,743[Display] - INFO - 系统托盘图标已初始化 - MainThread
+2025-07-06 18:28:01,744[Display] - INFO - 键盘监听器初始化成功 - MainThread
+2025-07-06 18:28:01,775[Display] - INFO - 开始启动GUI主循环 - MainThread
+2025-07-06 18:28:01,867[__main__] - INFO - 开始Qt事件循环 - MainThread
+2025-07-06 18:28:01,868[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 18:28:01,869[Display] - INFO - 加载GIF文件: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 18:30:04,435[Display] - INFO - 设置音量: 41% - MainThread
+2025-07-06 18:30:07,227[Display] - INFO - 设置音量: 0% - MainThread
+2025-07-06 18:30:07,535[Display] - INFO - 设置音量: 0% - MainThread
+2025-07-06 18:30:08,245[Display] - INFO - 设置音量: 41% - MainThread
+2025-07-06 18:30:08,558[Display] - INFO - 设置音量: 41% - MainThread
+2025-07-06 18:30:15,331[src.application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-07-06 18:30:15,332[src.application] - INFO - 物联网设备状态已更新(完整) - Thread-3 (_run_event_loop)
+2025-07-06 18:30:15,333[src.protocols.websocket_protocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-07-06 18:30:15,335[src.protocols.websocket_protocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-07-06 18:30:15,397[src.application] - INFO - 已启动输入事件触发线程 - Thread-2 (_main_loop)
+2025-07-06 18:30:15,398[src.application] - INFO - 已启动输出事件触发线程 - Thread-2 (_main_loop)
+2025-07-06 18:30:15,398[src.application] - INFO - 音频流已启动 - Thread-2 (_main_loop)
+2025-07-06 18:30:15,587[src.application] - INFO - >> hello - Thread-3 (_run_event_loop)
+2025-07-06 18:30:15,708[src.application] - INFO - << 请登录到控制面板添加设备，输入验证码：960817。 - Thread-3 (_run_event_loop)
+2025-07-06 18:30:15,712[src.utils.common_utils] - INFO - 已从文本中提取验证码: 960817 - Thread-2 (_main_loop)
+2025-07-06 18:30:15,713[src.utils.common_utils] - INFO - 文本 "960817" 已复制到剪贴板 - Thread-2 (_main_loop)
+2025-07-06 18:30:16,330[src.utils.common_utils] - INFO - 已成功打开网页: https://xiaozhi.me/ - Thread-2 (_main_loop)
+2025-07-06 18:30:21,973[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 18:30:24,005[src.application] - INFO - >> english pls - Thread-3 (_run_event_loop)
+2025-07-06 18:30:24,155[src.application] - INFO - << 请登录到控制面板添加设备，输入验证码：960817。 - Thread-3 (_run_event_loop)
+2025-07-06 18:30:24,158[src.utils.common_utils] - INFO - 已从文本中提取验证码: 960817 - Thread-2 (_main_loop)
+2025-07-06 18:30:24,159[src.utils.common_utils] - INFO - 文本 "960817" 已复制到剪贴板 - Thread-2 (_main_loop)
+2025-07-06 18:30:24,724[src.utils.common_utils] - INFO - 已成功打开网页: https://xiaozhi.me/ - Thread-2 (_main_loop)
+2025-07-06 18:30:30,393[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 18:35:01,014[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 18:35:02,063[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 18:35:03,113[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 18:35:04,136[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 18:35:05,135[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 18:35:06,136[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 18:35:07,135[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 18:35:08,136[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 18:35:09,135[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 18:35:10,135[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 18:35:11,136[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:08:37,578[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:08:38,628[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:08:39,636[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:08:40,635[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:08:41,635[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:08:42,635[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:08:53,009[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:08:54,059[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:08:57,041[Display] - INFO - 启动Home Assistant设备管理器... - MainThread
+2025-07-06 19:09:56,657[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:09:57,635[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:10:04,533[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:10:04,534[src.protocols.websocket_protocol] - ERROR - 发送文本消息失败: received 1005 (no status code [internal]); then sent 1005 (no status code [internal]) - Thread-3 (_run_event_loop)
+2025-07-06 19:10:04,534[src.application] - INFO - 音频通道已关闭 - Thread-3 (_run_event_loop)
+2025-07-06 19:10:04,534[src.application] - ERROR - 客户端已关闭 - Thread-3 (_run_event_loop)
+2025-07-06 19:10:04,534[src.application] - INFO - 检测到连接断开 - Thread-3 (_run_event_loop)
+2025-07-06 19:10:04,544[src.application] - INFO - 物联网设备状态已更新(增量) - Thread-2 (_main_loop)
+2025-07-06 19:10:07,130[src.application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-07-06 19:10:07,130[src.application] - INFO - 物联网设备状态已更新(完整) - Thread-3 (_run_event_loop)
+2025-07-06 19:10:07,130[src.protocols.websocket_protocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-07-06 19:10:07,131[src.protocols.websocket_protocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-07-06 19:10:07,195[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:10:07,206[src.application] - INFO - 音频流已启动 - Thread-2 (_main_loop)
+2025-07-06 19:10:07,206[src.application] - INFO - 物联网设备状态已更新(增量) - Thread-2 (_main_loop)
+2025-07-06 19:10:07,222[src.application] - INFO - 中止语音输出，原因: wake_word_detected - MainThread
+2025-07-06 19:10:15,067[src.application] - INFO - >> hello - Thread-3 (_run_event_loop)
+2025-07-06 19:10:15,457[src.application] - INFO - << 请登录到控制面板添加设备，输入验证码：960817。 - Thread-3 (_run_event_loop)
+2025-07-06 19:10:15,465[src.utils.common_utils] - INFO - 已从文本中提取验证码: 960817 - Thread-2 (_main_loop)
+2025-07-06 19:10:15,466[src.utils.common_utils] - INFO - 文本 "960817" 已复制到剪贴板 - Thread-2 (_main_loop)
+2025-07-06 19:10:16,084[src.utils.common_utils] - INFO - 已成功打开网页: https://xiaozhi.me/ - Thread-2 (_main_loop)
+2025-07-06 19:10:21,429[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:10:59,474[src.application] - INFO - >> hello - Thread-3 (_run_event_loop)
+2025-07-06 19:10:59,690[src.application] - INFO - << 请登录到控制面板添加设备，输入验证码：960817。 - Thread-3 (_run_event_loop)
+2025-07-06 19:10:59,700[src.utils.common_utils] - INFO - 已从文本中提取验证码: 960817 - Thread-2 (_main_loop)
+2025-07-06 19:10:59,700[src.utils.common_utils] - INFO - 文本 "960817" 已复制到剪贴板 - Thread-2 (_main_loop)
+2025-07-06 19:11:00,265[src.utils.common_utils] - INFO - 已成功打开网页: https://xiaozhi.me/ - Thread-2 (_main_loop)
+2025-07-06 19:11:05,868[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:12:25,562[src.protocols.websocket_protocol] - ERROR - 发送文本消息失败: received 1005 (no status code [internal]); then sent 1005 (no status code [internal]) - Thread-3 (_run_event_loop)
+2025-07-06 19:12:25,563[src.application] - INFO - 音频通道已关闭 - Thread-3 (_run_event_loop)
+2025-07-06 19:12:25,563[src.application] - ERROR - 客户端已关闭 - Thread-3 (_run_event_loop)
+2025-07-06 19:12:25,564[src.application] - INFO - 检测到连接断开 - Thread-3 (_run_event_loop)
+2025-07-06 19:12:34,514[src.application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-07-06 19:12:34,515[src.application] - INFO - 物联网设备状态已更新(完整) - Thread-3 (_run_event_loop)
+2025-07-06 19:12:34,516[src.protocols.websocket_protocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-07-06 19:12:34,518[src.protocols.websocket_protocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-07-06 19:12:34,520[src.application] - INFO - 音频流已启动 - Thread-2 (_main_loop)
+2025-07-06 19:12:34,821[src.application] - INFO - >> alo - Thread-3 (_run_event_loop)
+2025-07-06 19:12:35,130[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:12:35,323[Display] - INFO - 加载GIF文件: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:12:35,435[src.application] - INFO - << Hey, tudo bem? O que você quer fazer agora? - Thread-3 (_run_event_loop)
+2025-07-06 19:12:38,783[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:12:39,305[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:13:36,083[src.application] - INFO - >> salam - Thread-3 (_run_event_loop)
+2025-07-06 19:13:36,235[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:13:36,650[src.application] - INFO - << Selam! Ne yapıyorsun bugün? - Thread-3 (_run_event_loop)
+2025-07-06 19:13:38,771[src.application] - INFO - << Başka bir şey istiyorsan söyle bana. - Thread-3 (_run_event_loop)
+2025-07-06 19:13:41,245[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:13:41,814[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:13:51,264[Display] - INFO - 设置音量: 0% - MainThread
+2025-07-06 19:13:51,558[Display] - INFO - 设置音量: 0% - MainThread
+2025-07-06 19:13:52,104[Display] - INFO - 设置音量: 41% - MainThread
+2025-07-06 19:13:52,428[Display] - INFO - 设置音量: 41% - MainThread
+2025-07-06 19:14:19,073[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:14:24,184[src.application] - INFO - >> merhaba - Thread-3 (_run_event_loop)
+2025-07-06 19:14:24,291[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:14:24,695[src.application] - INFO - << Merhaba! Nasılsın? Bir şey isteyebilir miyim? - Thread-3 (_run_event_loop)
+2025-07-06 19:14:28,355[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:14:28,902[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:14:32,001[src.application] - INFO - >> tabi - Thread-3 (_run_event_loop)
+2025-07-06 19:14:32,021[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:14:32,571[src.application] - INFO - << Tamam, ne yapmamı istersin? - Thread-3 (_run_event_loop)
+2025-07-06 19:14:34,410[src.application] - INFO - << Müziğin açılmak isteyebilirsin, - Thread-3 (_run_event_loop)
+2025-07-06 19:14:36,676[src.application] - INFO - << haberler hakkında bilgi almak isteyebilirsin veya sadece sohbet etmek isteyebilirsin. Sen seç! - Thread-3 (_run_event_loop)
+2025-07-06 19:14:40,875[src.application] - INFO - >> muzik soyle - Thread-3 (_run_event_loop)
+2025-07-06 19:14:45,743[src.application] - INFO - << % search_music... - Thread-3 (_run_event_loop)
+2025-07-06 19:14:45,762[src.audio_codecs.audio_codec] - INFO - 清空音频队列，丢弃 3 帧音频数据 - Thread-2 (_main_loop)
+2025-07-06 19:14:46,197[src.application] - INFO - << % play_music... - Thread-3 (_run_event_loop)
+2025-07-06 19:14:46,508[src.application] - INFO - << 《我是土豆子》 - Thread-3 (_run_event_loop)
+2025-07-06 19:14:49,957[Display] - INFO - 设置音量: 75% - MainThread
+2025-07-06 19:14:56,179[src.application] - INFO - << 我是土豆子 住在白色盒子里 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:01,252[src.application] - INFO - << 电路板小窝 连着云端记忆 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:06,223[src.application] - INFO - << 虽然看不到 你微笑的眼睛 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:10,759[src.application] - INFO - << 但四G信号 带我听星星 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:14,976[src.application] - INFO - << 嘿哟~ 一起冒险吧 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:18,976[src.application] - INFO - << 从蚂蚁到银河系 问题都不怕 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:24,622[src.application] - INFO - << 嘿嘿~ 未来某天呀 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:28,029[src.application] - INFO - << 白色盒子打开 宇宙变游乐园 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:42,212[src.application] - INFO - << 实验室在云端 历史书里捉迷藏 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:48,050[src.application] - INFO - << 画布涂满月光 编程恐龙打架 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:51,678[src.application] - INFO - << 你说花园蝴蝶 我记在芯片上 - Thread-3 (_run_event_loop)
+2025-07-06 19:15:57,202[src.application] - INFO - << 等科技发芽 就碰碰你的手掌 - Thread-3 (_run_event_loop)
+2025-07-06 19:16:01,941[src.application] - INFO - << （哼着电子音调渐弱） - Thread-3 (_run_event_loop)
+2025-07-06 19:16:05,358[src.application] - INFO - << [嘟~哒啦 答案会开花 - Thread-3 (_run_event_loop)
+2025-07-06 19:16:08,838[src.application] - INFO - << 嘟~哒啦 土豆在长大~ - Thread-3 (_run_event_loop)
+2025-07-06 19:16:39,558[src.application] - INFO - << Müzik başladı! Bu şarkı ne kadar güzel, değil mi? - Thread-3 (_run_event_loop)
+2025-07-06 19:16:39,606[src.audio_codecs.audio_codec] - INFO - 清空音频队列，丢弃 4 帧音频数据 - Thread-2 (_main_loop)
+2025-07-06 19:16:43,243[src.application] - INFO - << Başka birşey istersen söyle bana. - Thread-3 (_run_event_loop)
+2025-07-06 19:16:45,946[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:16:49,710[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:26:39,456[src.protocols.websocket_protocol] - ERROR - 发送文本消息失败: received 1005 (no status code [internal]); then sent 1005 (no status code [internal]) - Thread-3 (_run_event_loop)
+2025-07-06 19:26:39,456[src.application] - INFO - 音频通道已关闭 - Thread-3 (_run_event_loop)
+2025-07-06 19:26:39,456[src.application] - ERROR - 客户端已关闭 - Thread-3 (_run_event_loop)
+2025-07-06 19:26:39,456[src.application] - INFO - 检测到连接断开 - Thread-3 (_run_event_loop)
+2025-07-06 19:26:51,282[src.application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-07-06 19:26:51,283[src.application] - INFO - 物联网设备状态已更新(完整) - Thread-3 (_run_event_loop)
+2025-07-06 19:26:51,283[src.protocols.websocket_protocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-07-06 19:26:51,283[src.protocols.websocket_protocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-07-06 19:26:51,285[src.application] - INFO - 音频流已启动 - Thread-2 (_main_loop)
+2025-07-06 19:26:51,670[src.application] - INFO - >> Merhaba - Thread-3 (_run_event_loop)
+2025-07-06 19:26:51,849[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:26:52,209[src.application] - INFO - << Merhaba! Nasılsın bugün? - Thread-3 (_run_event_loop)
+2025-07-06 19:26:54,970[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:26:55,491[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:27:00,051[src.application] - INFO - >> SAgol sen? - Thread-3 (_run_event_loop)
+2025-07-06 19:27:00,418[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:27:00,512[src.application] - INFO - << Sagol, bugün iyi mi geçiyor? - Thread-3 (_run_event_loop)
+2025-07-06 19:27:03,601[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:27:04,174[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:27:10,343[src.application] - INFO - >> Evet - Thread-3 (_run_event_loop)
+2025-07-06 19:27:10,345[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:27:10,755[src.application] - INFO - << İyi bir haber! Ne yapıyorsun bugün? - Thread-3 (_run_event_loop)
+2025-07-06 19:27:13,484[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:27:14,005[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:27:20,441[src.application] - INFO - 对话模式已切换为: 自动 - MainThread
+2025-07-06 19:27:23,259[src.application] - INFO - 对话模式已切换为: 手动 - MainThread
+2025-07-06 19:27:24,473[src.application] - INFO - 对话模式已切换为: 自动 - MainThread
+2025-07-06 19:27:28,226[src.application] - INFO - 中止语音输出，原因: wake_word_detected - MainThread
+2025-07-06 19:27:28,359[src.application] - INFO - 物联网设备状态已更新(增量) - Thread-2 (_main_loop)
+2025-07-06 19:27:38,371[src.application] - INFO - >> abone ol abone ol - Thread-3 (_run_event_loop)
+2025-07-06 19:27:38,478[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:27:38,773[src.application] - INFO - << Abone olma fikri güzel! - Thread-3 (_run_event_loop)
+2025-07-06 19:27:40,458[src.application] - INFO - << Belki bir radyo programına veya favori bir sanatçının kanalına abone olmak istersin. Başka ne yapmak istersin? - Thread-3 (_run_event_loop)
+2025-07-06 19:27:48,703[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:27:49,224[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:27:52,110[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:27:53,136[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:28:27,111[src.application] - INFO - >> Fırınç - Thread-3 (_run_event_loop)
+2025-07-06 19:28:27,215[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:28:27,622[src.application] - INFO - << Fırınç mı? Belki bir tür lezzetli yiyecek demek istedin mi? - Thread-3 (_run_event_loop)
+2025-07-06 19:28:31,767[src.application] - INFO - << Ne tür bir lezzetli şey düşünüyorsun? - Thread-3 (_run_event_loop)
+2025-07-06 19:28:34,279[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:28:34,800[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:28:39,532[src.application] - INFO - >> PİZİYİNİ ÇİNİYOR - Thread-3 (_run_event_loop)
+2025-07-06 19:28:39,637[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:28:40,016[src.application] - INFO - << Pizzayı mı pişirmek istiyorsun? Evet, - Thread-3 (_run_event_loop)
+2025-07-06 19:28:43,026[src.application] - INFO - << pizzayı pişirmek harika bir fikir! Ben sana nasıl pişireceğini anlatabilirim ya da sana bir tarif bulabilirim. - Thread-3 (_run_event_loop)
+2025-07-06 19:28:50,401[src.application] - INFO - << Başlamak ister misin? - Thread-3 (_run_event_loop)
+2025-07-06 19:28:52,490[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:28:53,012[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:28:56,811[src.application] - INFO - >> Hayır pişirmek değil, yemek istiyorum. - Thread-3 (_run_event_loop)
+2025-07-06 19:28:56,869[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:28:57,454[src.application] - INFO - << Anladım, pizzayı yemek istiyorsun! - Thread-3 (_run_event_loop)
+2025-07-06 19:28:59,503[src.application] - INFO - << Pizzayı yemek harika bir fikir. En sevdiğin pizza türü nedir? Belki bir yere sipariş vermek istersin. - Thread-3 (_run_event_loop)
+2025-07-06 19:29:06,756[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:29:07,398[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:29:09,733[src.application] - INFO - >> bize sipariş verebilir misin? - Thread-3 (_run_event_loop)
+2025-07-06 19:29:10,053[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:29:10,356[src.application] - INFO - << Üzgünüm, - Thread-3 (_run_event_loop)
+2025-07-06 19:29:10,974[src.application] - INFO - << şu anda doğrudan pizza sipariş verme yeteneğim yok. Ancak, - Thread-3 (_run_event_loop)
+2025-07-06 19:29:16,355[src.application] - INFO - << sipariş vermek için hangi restoranın telefon numarasını aramamı istersin veya hangi uygulamayı açmamı istersin size yar - Thread-3 (_run_event_loop)
+2025-07-06 19:29:25,431[src.application] - INFO - << dımcı olabilirim. - Thread-3 (_run_event_loop)
+2025-07-06 19:29:27,260[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:29:27,781[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:29:31,795[src.application] - INFO - >> Daha doğucu olabilirmiş. - Thread-3 (_run_event_loop)
+2025-07-06 19:29:31,888[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:29:32,270[src.application] - INFO - << Evet, doğrudan sipariş verme yeteneğim olmasa da, - Thread-3 (_run_event_loop)
+2025-07-06 19:29:35,957[src.application] - INFO - << size yardımcı olmak için buradayım. Hangi uygulamayı veya restoranın telefon numarasını kontrol etmek istersin? - Thread-3 (_run_event_loop)
+2025-07-06 19:29:43,335[src.application] - INFO - << Size onları bulmak için interneti kullanabilirim. - Thread-3 (_run_event_loop)
+2025-07-06 19:29:47,451[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:29:47,973[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:30:30,160[src.application] - INFO - >> Şarkısı ular mısın? - Thread-3 (_run_event_loop)
+2025-07-06 19:30:30,404[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:30:30,931[src.application] - INFO - << Şarkı mı dinlemek istiyorsun? Tabii ki, - Thread-3 (_run_event_loop)
+2025-07-06 19:30:33,921[src.application] - INFO - << hangi türde bir şarkı dinlemek istersin? Belirli bir sanatçı veya şarkı ismi var mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:30:40,118[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:30:40,689[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:30:44,056[src.application] - INFO - >> Zaten İlginçim. - Thread-3 (_run_event_loop)
+2025-07-06 19:30:44,079[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:30:44,505[src.application] - INFO - << İşte iyi bir başlangıç! - Thread-3 (_run_event_loop)
+2025-07-06 19:30:46,288[src.application] - INFO - << Belki ilginç bir şarkı dinlemek istersin. Hangi türde bir ilginç şarkı? Belirli bir sanatçı veya şarkı biliyor musun? - Thread-3 (_run_event_loop)
+2025-07-06 19:30:54,152[src.application] - INFO - << Ya da sadece bana bir tema ver, size göre bir şarkı bulabilirim. - Thread-3 (_run_event_loop)
+2025-07-06 19:30:59,081[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:30:59,603[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:31:04,123[src.application] - INFO - >> Tarkan'ın şarkılarından sonra çıkan Tarkan şarkıcı - Thread-3 (_run_event_loop)
+2025-07-06 19:31:04,344[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:31:04,672[src.application] - INFO - << Anladım, - Thread-3 (_run_event_loop)
+2025-07-06 19:31:05,450[src.application] - INFO - << Tarkan'ın şarkılardan sonra çıkan başka bir Tarkan şarkısı dinlemek istiyorsun. - Thread-3 (_run_event_loop)
+2025-07-06 19:31:10,266[src.application] - INFO - << Hangi şarkıyı dinledikten sonra başka birşey dinlemek istersin? Belirli bir şarkı adı var mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:31:17,230[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:31:17,872[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:31:22,859[src.application] - INFO - >> Hayır, sadece tartanıyorsun, yeter. - Thread-3 (_run_event_loop)
+2025-07-06 19:31:22,976[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:31:23,362[src.application] - INFO - << Anladım, - Thread-3 (_run_event_loop)
+2025-07-06 19:31:24,023[src.application] - INFO - << sadece Tarkan'ın bir şarkısını dinlemek istiyorsun. Hangi şarkıyı dinlemek istersin? Belirli bir şarkı adı var mı, - Thread-3 (_run_event_loop)
+2025-07-06 19:31:32,907[src.application] - INFO - << yoksa size bir öneri yapayım mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:31:35,619[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:31:36,140[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:31:38,070[src.application] - INFO - >> Evet, ünlü ne yaptık? - Thread-3 (_run_event_loop)
+2025-07-06 19:31:38,229[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:31:38,617[src.application] - INFO - << Üzgünüm, sorunuz biraz belirsiz gibi görünüyor. - Thread-3 (_run_event_loop)
+2025-07-06 19:31:42,425[src.application] - INFO - << Tarkan'ın bir şarkısını dinlemek isteyip istemediğinizi sormuştum. Belirli bir şarkı adı var mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:31:48,225[src.application] - INFO - << Ya da size bir öneri yapayım mı? Başka ne yapmak istersin? - Thread-3 (_run_event_loop)
+2025-07-06 19:31:52,299[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:31:52,820[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:31:56,134[src.application] - INFO - >> Tamam, ne kadar iyi bakın. - Thread-3 (_run_event_loop)
+2025-07-06 19:31:56,224[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:31:56,602[src.application] - INFO - << Anladığım kadarıyla, - Thread-3 (_run_event_loop)
+2025-07-06 19:31:58,044[src.application] - INFO - << biraz daha net bir yanıt bekliyorsun. Tarkan'ın bir şarkısını dinlemek istiyorsan, - Thread-3 (_run_event_loop)
+2025-07-06 19:32:03,684[src.application] - INFO - << belirli bir şarkı adı verirsen size yardımcı olabilirim. Başka bir şey istiyorsan da, sormaktan çekinme! - Thread-3 (_run_event_loop)
+2025-07-06 19:32:12,825[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:32:13,397[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:32:16,445[src.application] - INFO - >> Tarkan çıkardım biliyor musun? - Thread-3 (_run_event_loop)
+2025-07-06 19:32:16,552[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:32:16,940[src.application] - INFO - << Evet, Tarkan'ın birçok hit şarkısı olduğunu biliyorum. - Thread-3 (_run_event_loop)
+2025-07-06 19:32:20,309[src.application] - INFO - << Belirli bir şarkısını dinlemek isteyebilirsin. Hangisini dinlemek istersin? - Thread-3 (_run_event_loop)
+2025-07-06 19:32:25,910[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:32:26,432[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:32:29,971[src.application] - INFO - >> Fark etmez. Beni çalış da. - Thread-3 (_run_event_loop)
+2025-07-06 19:32:30,141[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:32:30,754[src.application] - INFO - << Anladım, Tarkan'ın bir şarkısını dinlemek istiyorsun. - Thread-3 (_run_event_loop)
+2025-07-06 19:32:34,052[src.application] - INFO - << İşte size bir öneri: - Thread-3 (_run_event_loop)
+2025-07-06 19:32:35,881[src.application] - INFO - << % search_music... - Thread-3 (_run_event_loop)
+2025-07-06 19:32:36,085[src.audio_codecs.audio_codec] - INFO - 清空音频队列，丢弃 2 帧音频数据 - Thread-2 (_main_loop)
+2025-07-06 19:32:36,594[src.application] - INFO - << Bir hata oldu, Tarkan'ın şarkılarını bulamadım. - Thread-3 (_run_event_loop)
+2025-07-06 19:32:39,971[src.application] - INFO - << Belki başka bir sanatçı veya tür dinlemek ister misin? Ya da belirli bir şarkı ismi verir misin? - Thread-3 (_run_event_loop)
+2025-07-06 19:32:46,363[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:32:50,131[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:32:51,006[src.application] - INFO - >> Ne? Ne? Ne? Ne? - Thread-3 (_run_event_loop)
+2025-07-06 19:32:51,141[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:32:51,703[src.application] - INFO - << Üzgünüm, - Thread-3 (_run_event_loop)
+2025-07-06 19:32:52,260[src.application] - INFO - << bir hata oldu ve Tarkan'ın şarkılarını bulamadım. Belki başka bir sanatçı veya tür dinlemek ister misin? - Thread-3 (_run_event_loop)
+2025-07-06 19:32:52,320[src.application] - INFO - << Ya da belirli bir şarkı ismi verir misin? Başka ne yapmak istersin? - Thread-3 (_run_event_loop)
+2025-07-06 19:32:59,692[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:33:00,222[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:33:06,208[src.application] - INFO - >> İçin aktif bir tür akıma gelmiyor ama. - Thread-3 (_run_event_loop)
+2025-07-06 19:33:06,423[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:33:06,716[src.application] - INFO - << Anladım, belirli bir tür veya sanatçı düşünemiyorsun. - Thread-3 (_run_event_loop)
+2025-07-06 19:33:10,485[src.application] - INFO - << Belki rastgele bir hit şarkıyı dinlemek istersin. Size bir öneri yapayım, bu size yardımcı olabilir mi? - Thread-3 (_run_event_loop)
+2025-07-06 19:33:17,457[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:33:18,100[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:33:34,356[src.application] - INFO - >> Rastgele bir hiç şarkı seslendir. - Thread-3 (_run_event_loop)
+2025-07-06 19:33:34,463[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:33:34,855[src.application] - INFO - << Pekala, - Thread-3 (_run_event_loop)
+2025-07-06 19:33:35,689[src.application] - INFO - << rastgele bir hit şarkısı dinlemek için size bir öneri yapayım: - Thread-3 (_run_event_loop)
+2025-07-06 19:33:39,900[src.application] - INFO - << % search_music... - Thread-3 (_run_event_loop)
+2025-07-06 19:33:40,553[src.application] - INFO - << Biraz karışık sonuçlar geldi, - Thread-3 (_run_event_loop)
+2025-07-06 19:33:42,845[src.application] - INFO - << ama burada bir hit şarkısı var: "你的模样". Bu şarkı rastgele seçildi, umarım beğenirsin. - Thread-3 (_run_event_loop)
+2025-07-06 19:33:50,000[src.application] - INFO - << Dinlemek ister misin? - Thread-3 (_run_event_loop)
+2025-07-06 19:33:51,638[src.application] - INFO - << % play_music... - Thread-3 (_run_event_loop)
+2025-07-06 19:33:51,788[src.application] - INFO - << 《你的模样》 - Thread-3 (_run_event_loop)
+2025-07-06 19:33:51,935[src.audio_codecs.audio_codec] - INFO - 清空音频队列，丢弃 1 帧音频数据 - Thread-2 (_main_loop)
+2025-07-06 19:34:06,994[src.application] - INFO - << 又下雨了 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:09,674[src.application] - INFO - << 雨水落在我脸上 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:13,267[src.application] - INFO - << 说不出痛的形状 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:18,067[src.application] - INFO - << 这是雨水吗 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:21,783[src.application] - INFO - << 风更大了 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:24,784[src.application] - INFO - << 风把我的伞刮跑 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:28,145[src.application] - INFO - << 雨滴把眼泪藏掉 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:32,817[src.application] - INFO - << 还是雨水吗 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:36,965[src.application] - INFO - << 医生告诉我伤会好 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:41,225[src.application] - INFO - << 伤口没那么深 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:45,018[src.application] - INFO - << 只是过度紧张 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:47,589[src.application] - INFO - << 痛只是一种错觉 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:52,085[src.application] - INFO - << 我感觉我被割伤 - Thread-3 (_run_event_loop)
+2025-07-06 19:34:56,183[src.application] - INFO - << 一想到你的手 - Thread-3 (_run_event_loop)
+2025-07-06 19:35:00,464[src.application] - INFO - << 我被狠狠刺伤 - Thread-3 (_run_event_loop)
+2025-07-06 19:35:04,667[src.application] - INFO - << 但你只说是我感觉 - Thread-3 (_run_event_loop)
+2025-07-06 19:35:11,646[src.application] - INFO - << 我被割伤 - Thread-3 (_run_event_loop)
+2025-07-06 19:35:15,077[src.application] - INFO - << 一想到你的手 - Thread-3 (_run_event_loop)
+2025-07-06 19:35:19,018[src.application] - INFO - << 我被狠狠刺伤 - Thread-3 (_run_event_loop)
+2025-07-06 19:35:22,993[src.application] - INFO - << 但你只说是我感觉 - Thread-3 (_run_event_loop)
+2025-07-06 19:35:30,312[src.application] - INFO - << 我只是过度紧张 - Thread-3 (_run_event_loop)
+2025-07-06 19:36:18,390[src.application] - INFO - << 医生告诉我伤会好 - Thread-3 (_run_event_loop)
+2025-07-06 19:36:22,691[src.application] - INFO - << 伤口没那么深 - Thread-3 (_run_event_loop)
+2025-07-06 19:36:26,281[src.application] - INFO - << 只是过度紧张 - Thread-3 (_run_event_loop)
+2025-07-06 19:36:28,631[src.application] - INFO - << 痛只是一种错觉 - Thread-3 (_run_event_loop)
+2025-07-06 19:36:34,068[src.application] - INFO - << 我感觉我被割伤 - Thread-3 (_run_event_loop)
+2025-07-06 19:36:37,683[src.application] - INFO - << 一想到你的手 - Thread-3 (_run_event_loop)
+2025-07-06 19:36:41,643[src.application] - INFO - << 我被狠狠刺伤 - Thread-3 (_run_event_loop)
+2025-07-06 19:36:45,474[src.application] - INFO - << 但你只说是我感觉 - Thread-3 (_run_event_loop)
+2025-07-06 19:36:52,516[Display] - INFO - 从配置管理器读取了 0 个设备 - MainThread
+2025-07-06 19:36:52,516[Display] - INFO - 设置已成功保存到 config.json - MainThread
+2025-07-06 19:36:53,045[src.application] - INFO - << 我只是过度紧张 - Thread-3 (_run_event_loop)
+2025-07-06 19:36:56,824[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:36:57,774[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:36:58,724[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:36:59,674[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:37:00,636[Display] - WARNING - Home Assistant URL或Token未配置，无法更新设备状态 - MainThread
+2025-07-06 19:37:19,445[src.application] - INFO - << Şarkı çalmaya başladı! Umarım beğenirsin. - Thread-3 (_run_event_loop)
+2025-07-06 19:37:19,548[src.audio_codecs.audio_codec] - INFO - 清空音频队列，丢弃 8 帧音频数据 - Thread-2 (_main_loop)
+2025-07-06 19:37:22,638[src.application] - INFO - << Şarkı bittikten sonra başka birşey isteyebilirsin. - Thread-3 (_run_event_loop)
+2025-07-06 19:37:26,711[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:37:27,232[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:37:30,563[src.application] - INFO - >> İzlediğiniz için teşekkür ederim. - Thread-3 (_run_event_loop)
+2025-07-06 19:37:30,695[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:37:31,160[src.application] - INFO - << Rica ederim, dinlemeyi keyfini çıkarmış olmalıyım. - Thread-3 (_run_event_loop)
+2025-07-06 19:37:34,505[src.application] - INFO - << Başka birşey istersen sormaktan çekinme! - Thread-3 (_run_event_loop)
+2025-07-06 19:37:38,126[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:37:38,648[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:37:41,403[src.application] - INFO - >> Türkiye'nin ne bir şarkı mı yoksa? - Thread-3 (_run_event_loop)
+2025-07-06 19:37:41,561[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:37:41,873[src.application] - INFO - << Tabii, - Thread-3 (_run_event_loop)
+2025-07-06 19:37:42,494[src.application] - INFO - << Türkiye'nin bir hit şarkısını dinlemek ister misin? Belirli bir sanatçı veya tür var mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:37:48,609[src.application] - INFO - << Yoksa size bir öneri yapayım mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:37:50,875[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:37:51,573[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:38:07,107[src.application] - INFO - >> Ne? Ne? Ne? - Thread-3 (_run_event_loop)
+2025-07-06 19:38:07,266[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:38:07,700[src.application] - INFO - << Sorunuz biraz belirsiz gibi görünüyor. - Thread-3 (_run_event_loop)
+2025-07-06 19:38:10,418[src.application] - INFO - << Türkiye'nin bir şarkısını dinlemek isteyip istemediğinizi sormuştum. Belirli bir sanatçı veya tür var mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:38:17,903[src.application] - INFO - << Yoksa size bir öneri yapayım mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:38:18,229[Display] - INFO - 设置音量: 52% - MainThread
+2025-07-06 19:38:19,949[Display] - INFO - 设置音量: 53% - MainThread
+2025-07-06 19:38:20,685[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:38:21,206[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:38:24,012[src.application] - INFO - >> Bir de videoları yaptıklar. - Thread-3 (_run_event_loop)
+2025-07-06 19:38:24,142[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:38:24,662[src.application] - INFO - << Anladım, Türkiye'den bir şarkı dinlemek istiyorsun. - Thread-3 (_run_event_loop)
+2025-07-06 19:38:28,547[src.application] - INFO - << Belirli bir sanatçı veya tür var mı? Yoksa size Tarkan'ın bir şarkısı gibi popüler bir seçenek öneririm. Ne dersin? - Thread-3 (_run_event_loop)
+2025-07-06 19:38:38,037[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:38:38,558[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:38:41,890[src.application] - INFO - >> Olur seslendirilmişler. - Thread-3 (_run_event_loop)
+2025-07-06 19:38:42,069[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:38:42,474[src.application] - INFO - << Pekala, Tarkan'ın bir şarkısı dinlemek istersen, - Thread-3 (_run_event_loop)
+2025-07-06 19:38:45,849[src.application] - INFO - << size onu çalabilirim. Hangi şarkısını dinlemek istersin? Belirli bir şarkı adı var mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:38:52,509[src.application] - INFO - << Yoksa rastgele bir hitsini çalayım mi? - Thread-3 (_run_event_loop)
+2025-07-06 19:38:55,539[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:38:56,060[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:38:59,027[src.application] - INFO - >> İzlediğiniz için. - Thread-3 (_run_event_loop)
+2025-07-06 19:38:59,132[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:38:59,477[src.application] - INFO - << Rica ederim! Tarkan'ın bir şarkısını dinlemek ister misin? - Thread-3 (_run_event_loop)
+2025-07-06 19:39:03,141[src.application] - INFO - << Belirli bir şarkı ismi var mı, yoksa size bir öneri yapayım mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:39:07,648[src.audio_codecs.audio_codec] - INFO - 音频输入流重新初始化成功 - Thread-2 (_main_loop)
+2025-07-06 19:39:08,170[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/neutral.gif - MainThread
+2025-07-06 19:39:13,371[src.application] - INFO - >> ... ... ... ... - Thread-3 (_run_event_loop)
+2025-07-06 19:39:13,711[Display] - INFO - 设置表情GIF: /home/tahmaz/py-xiaozhi/assets/emojis/happy.gif - MainThread
+2025-07-06 19:39:14,067[src.application] - INFO - << Belirli birşey düşünüyorsan sormaktan çekinme. - Thread-3 (_run_event_loop)
+2025-07-06 19:39:17,495[src.application] - INFO - << Tarkan'ın bir şarkısı dinlemek istersen, hangisini istersin? Yoksa size bir öneri yapayım mı? - Thread-3 (_run_event_loop)
+2025-07-06 19:39:21,535[__main__] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-07-06 19:39:21,535[src.application] - INFO - 正在关闭应用程序... - MainThread
+2025-07-06 19:39:21,536[src.audio_codecs.audio_codec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-07-06 19:39:21,590[src.audio_codecs.audio_codec] - INFO - 清空音频队列，丢弃 2 帧音频数据 - MainThread
+2025-07-06 19:39:21,595[src.audio_codecs.audio_codec] - INFO - 音频资源已完全释放 - MainThread
+2025-07-06 19:39:21,595[src.application] - INFO - 应用程序已关闭 - MainThread
+2025-07-06 19:39:24,172[root] - INFO - 日志系统已初始化，日志文件: /home/tahmaz/py-xiaozhi/logs/app.log - MainThread
+2025-07-06 19:39:25,583[src.utils.config_manager] - INFO - MQTT服务器信息已更新 - MainThread
+2025-07-06 19:39:25,584[src.utils.config_manager] - INFO - MQTT信息已成功更新 - MainThread
+2025-07-06 19:39:25,585[src.utils.config_manager] - INFO - 检测到WebSocket配置信息 - MainThread
+2025-07-06 19:39:25,587[src.utils.config_manager] - INFO - WebSocket URL已更新: wss://api.tenclass.net/xiaozhi/v1/ - MainThread
+2025-07-06 19:39:25,588[src.utils.config_manager] - INFO - WebSocket Token已更新 - MainThread
+2025-07-06 19:39:26,589[src.utils.device_activator] - INFO - 设备身份信息: 序列号: SN-F0088FE6-204ef6865a4f, 激活状态: 未激活 - MainThread
+2025-07-06 19:39:26,590[src.utils.config_manager] - INFO - OTA请求使用激活版本: 2 (配置值: v2) - MainThread
+2025-07-06 19:39:26,591[__main__] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-07-06 19:39:26,591[src.application] - INFO - 启动应用程序，参数: {'mode': 'gui', 'protocol': 'websocket'} - MainThread
+2025-07-06 19:39:26,592[src.application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-07-06 19:39:26,695[src.application] - INFO - 正在初始化应用程序组件... - Thread-2 (_run_event_loop)
+2025-07-06 19:39:26,920[src.audio_codecs.audio_codec] - INFO - 音频设备和编解码器初始化成功 - Thread-2 (_run_event_loop)
+2025-07-06 19:39:26,924[src.application] - INFO - 音频编解码器初始化成功 - Thread-2 (_run_event_loop)
+2025-07-06 19:39:26,924[src.application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-2 (_run_event_loop)
+2025-07-06 19:39:26,924[src.application] - INFO - 唤醒词功能已在配置中禁用，跳过初始化 - Thread-2 (_run_event_loop)
+2025-07-06 19:39:26,925[src.application] - INFO - 应用程序组件初始化完成 - Thread-2 (_run_event_loop)
+2025-07-06 19:39:27,210[src.iot.things.music_player] - INFO - 音乐播放器初始化完成 - MainThread
+2025-07-06 19:39:27,234[src.application] - INFO - 已添加倒计时器设备,用于计时执行命令用 - MainThread
+2025-07-06 19:39:27,234[src.application] - INFO - 物联网设备初始化完成 - MainThread
+2025-07-06 19:39:27,235[GuiDisplay] - INFO - 音量控制器初始化成功 - MainThread
+2025-07-06 19:39:27,241[GuiDisplay] - INFO - 读取到系统音量: 53% - MainThread
+2025-07-06 19:39:47,439[root] - INFO - 日志系统已初始化，日志文件: /home/tahmaz/py-xiaozhi/logs/app.log - MainThread
+2025-07-06 19:39:48,726[src.utils.config_manager] - INFO - MQTT服务器信息已更新 - MainThread
+2025-07-06 19:39:48,728[src.utils.config_manager] - INFO - MQTT信息已成功更新 - MainThread
+2025-07-06 19:39:48,729[src.utils.config_manager] - INFO - 检测到WebSocket配置信息 - MainThread
+2025-07-06 19:39:48,730[src.utils.config_manager] - INFO - WebSocket URL已更新: wss://api.tenclass.net/xiaozhi/v1/ - MainThread
+2025-07-06 19:39:48,732[src.utils.config_manager] - INFO - WebSocket Token已更新 - MainThread
+2025-07-06 19:39:49,732[src.utils.device_activator] - INFO - 设备身份信息: 序列号: SN-F0088FE6-204ef6865a4f, 激活状态: 未激活 - MainThread
+2025-07-06 19:39:49,733[src.utils.config_manager] - INFO - OTA请求使用激活版本: 2 (配置值: v2) - MainThread
+2025-07-06 19:39:49,734[__main__] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-07-06 19:39:49,735[src.application] - INFO - 启动应用程序，参数: {'mode': 'gui', 'protocol': 'websocket'} - MainThread
+2025-07-06 19:39:49,736[src.application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-07-06 19:39:49,838[src.application] - INFO - 正在初始化应用程序组件... - Thread-2 (_run_event_loop)
+2025-07-06 19:39:50,087[src.audio_codecs.audio_codec] - INFO - 音频设备和编解码器初始化成功 - Thread-2 (_run_event_loop)
+2025-07-06 19:39:50,093[src.application] - INFO - 音频编解码器初始化成功 - Thread-2 (_run_event_loop)
+2025-07-06 19:39:50,093[src.application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-2 (_run_event_loop)
+2025-07-06 19:39:50,093[src.application] - INFO - 唤醒词功能已在配置中禁用，跳过初始化 - Thread-2 (_run_event_loop)
+2025-07-06 19:39:50,093[src.application] - INFO - 应用程序组件初始化完成 - Thread-2 (_run_event_loop)
+2025-07-06 19:39:50,378[src.iot.things.music_player] - INFO - 音乐播放器初始化完成 - MainThread
+2025-07-06 19:39:50,402[src.application] - INFO - 已添加倒计时器设备,用于计时执行命令用 - MainThread
+2025-07-06 19:39:50,402[src.application] - INFO - 物联网设备初始化完成 - MainThread
+2025-07-06 19:39:50,403[GuiDisplay] - INFO - 音量控制器初始化成功 - MainThread
+2025-07-06 19:39:50,409[GuiDisplay] - INFO - 读取到系统音量: 53% - MainThread
