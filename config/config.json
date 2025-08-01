@@ -3,8 +3,8 @@
     "CLIENT_ID": "a9c52a1f-c03b-49b5-aa5c-953a47a3925a",
     "DEVICE_ID": "20:4e:f6:86:5a:4f",
     "NETWORK": {
-      "OTA_VERSION_URL": "https://api.tenclass.net/xiaozhi/ota/",
-      "WEBSOCKET_URL": "wss://api.tenclass.net/xiaozhi/v1/",
+      "OTA_VERSION_URL": "https://192.168.1.115:8003/xiaozhi/ota/",
+      "WEBSOCKET_URL": "ws://192.168.1.115:8000/xiaozhi/v1/",
       "WEBSOCKET_ACCESS_TOKEN": "test-token",
       "MQTT_INFO": {
         "endpoint": "mqtt.xiaozhi.me",
@@ -22,12 +22,12 @@
     "USE_WAKE_WORD": false,
     "MODEL_PATH": "models/vosk-model-small-cn-0.22",
     "WAKE_WORDS": [
-      "小智",
-      "小美"
+      "Xiao Zhi",
+      "Xiao Mei"
     ]
   },
   "TEMPERATURE_SENSOR_MQTT_INFO": {
-    "endpoint": "你的Mqtt连接地址",
+    "endpoint": "your MQTT connection address",
     "port": 1883,
     "username": "admin",
     "password": "123456",
@@ -44,8 +44,8 @@
     "frame_width": 640,
     "frame_height": 480,
     "fps": 30,
-    "Loacl_VL_url": "https://open.bigmodel.cn/api/paas/v4/",
-    "VLapi_key": "你自己的key",
+    "Local_VL_url": "https://open.bigmodel.cn/api/paas/v4/",
+    "VLapi_key": "your own key",
     "models": "glm-4v-plus"
   }
 }
