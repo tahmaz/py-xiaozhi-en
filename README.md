@@ -28,8 +28,6 @@ py-xiaozhi is a Python-based Xiaozhi voice client, designed to learn coding and 
 ## Demo
 - [Bilibili Demo Video](https://www.bilibili.com/video/BV1HmPjeSED2/#reply255921347937)
 
-![Image](./documents/docs/guide/images/系统界面.png)
-
 ## Features
 - **AI Voice Interaction**: Supports voice input and recognition, enabling smart human-computer interaction with natural conversation flow.
 - **Visual Multimodal**: Supports image recognition and processing, providing multimodal interaction capabilities and image content understanding.
@@ -181,9 +179,6 @@ We welcome issue reports and code contributions. Please ensure you follow these 
     <img src="https://img.shields.io/badge/Become-Sponsor-orange?style=for-the-badge&logo=heart" alt="Become a Sponsor">
   </a>
 </div>
-
-## Project Statistics
-[![Star History Chart](https://api.star-history.com/svg?repos=huangjunsen0406/py-xiaozhi&type=Date)](https://www.star-history.com/#huangjunsen0406/py-xiaozhi&Date)
 
 ## License
 [MIT License](LICENSE) 
