@@ -20,13 +20,8 @@
   </a>
 </p>
 
-English | [简体中文](README.md)
-
 ## Project Introduction
 py-xiaozhi is a Python-based Xiaozhi voice client, designed to learn coding and experience AI voice interaction without hardware requirements. This repository is ported from [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32).
-
-## Demo
-- [Bilibili Demo Video](https://www.bilibili.com/video/BV1HmPjeSED2/#reply255921347937)
 
 ## Features
 - **AI Voice Interaction**: Supports voice input and recognition, enabling smart human-computer interaction with natural conversation flow.
